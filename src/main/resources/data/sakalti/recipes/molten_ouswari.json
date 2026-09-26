@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "amount": 100,
+      "name": "sakalti:kanilite"
+    },
+    {
+      "amount": 20,
+      "name": "sakalti:ioxium"
+    }
+  ],
+  "result": {
+    "fluid": "sakalti:ouswari",
+    "amount": 50
+  },
+  "temperature": 1450
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "SGS",
+    "CSC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:emerald"
+    },
+    "G": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "sakalti:health_crystal"
+  }
+}

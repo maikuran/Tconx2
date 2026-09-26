@@ -1,0 +1,9 @@
+{
+  "craftable": true,
+  "tier": 7,
+  "sortOrder": 7,
+  "hidden": false,
+  "color": "#d3072c",
+  "fluid": "sakalti:igniz",
+  "translationKey": "material.sakalti.igniz"
+}

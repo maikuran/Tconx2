@@ -1,0 +1,8 @@
+{
+  "default": [
+    {
+      "name": "sakalti:fire_wall",
+      "level": 1
+    }
+  ]
+}

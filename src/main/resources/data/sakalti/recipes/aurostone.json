@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "amount": 100,
+      "name": "sakalti:chirite"
+    },
+    {
+      "amount": 10,
+      "name": "sakalti:igniz"
+    },
+    {
+      "amount": 100,
+      "name": "tconstruct:molten_emerald"
+    }
+  ],
+  "result": {
+    "fluid": "sakalti:aurostone",
+    "amount": 50
+  },
+  "temperature": 1420
+}

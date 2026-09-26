@@ -1,0 +1,9 @@
+{
+  "craftable": true,
+  "tier": 6,
+  "sortOrder": 6,
+  "hidden": false,
+  "color": "#593b67",
+  "fluid": "sakalti:proxia",
+  "translationKey": "material.sakalti.proxia"
+}

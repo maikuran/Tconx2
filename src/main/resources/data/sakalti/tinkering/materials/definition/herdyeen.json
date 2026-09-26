@@ -1,0 +1,9 @@
+{
+  "craftable": true,
+  "tier": 6,
+  "sortOrder": 6,
+  "hidden": false,
+  "color": "#66ffff",
+  "fluid": "sakalti:herdyeen",
+  "translationKey": "material.sakalti.herdyeen"
+}

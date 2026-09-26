@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "amount": 10,
+      "name": "sakalti:deepsteel"
+    },
+    {
+      "amount": 40,
+      "name": "sakalti:igniz"
+    },
+    {
+      "amount": 100,
+      "name": "tconstruct:molten_cobalt"
+    }
+  ],
+  "result": {
+    "fluid": "sakalti:marulite",
+    "amount": 50
+  },
+  "temperature": 1260
+}

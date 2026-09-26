@@ -1,0 +1,9 @@
+{
+  "craftable": true,
+  "tier": 4,
+  "sortOrder": 4,
+  "hidden": false,
+  "color": "#9cd307",
+  "fluid": "sakalti:ioxium",
+  "translationKey": "material.sakalti.ioxium"
+}

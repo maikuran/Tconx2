@@ -1,0 +1,9 @@
+{
+  "craftable": true,
+  "tier": 6,
+  "sortOrder": 6,
+  "hidden": false,
+  "color": "#ffaa00",
+  "fluid": "sakalti:dilonite",
+  "translationKey": "material.sakalti.dilonite"
+}
