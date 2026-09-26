@@ -36,6 +36,22 @@ public final class Sakalti2Fluids {
     public static final RegistryObject<ForgeFlowingFluid> TRIUM = TRIUM_ENTRY.source;
     public static final RegistryObject<ForgeFlowingFluid> FLOWING_TRIUM = TRIUM_ENTRY.flowing;
 
+    public static final FluidEntry ZARLON_ENTRY = registerFluid("zarlon", 0xFF9137C0, 2100, 1100, 1050);
+    public static final RegistryObject<ForgeFlowingFluid> ZARLON = ZARLON_ENTRY.source;
+    public static final RegistryObject<ForgeFlowingFluid> FLOWING_ZARLON = ZARLON_ENTRY.flowing;
+
+    public static final FluidEntry KNITZ_ENTRY = registerFluid("knitz", 0xFF7D1638, 2200, 1150, 1150);
+    public static final RegistryObject<ForgeFlowingFluid> KNITZ = KNITZ_ENTRY.source;
+    public static final RegistryObject<ForgeFlowingFluid> FLOWING_KNITZ = KNITZ_ENTRY.flowing;
+
+    public static final FluidEntry SITUAN_ENTRY = registerFluid("situan", 0xFF2E70D0, 2050, 1050, 1000);
+    public static final RegistryObject<ForgeFlowingFluid> SITUAN = SITUAN_ENTRY.source;
+    public static final RegistryObject<ForgeFlowingFluid> FLOWING_SITUAN = SITUAN_ENTRY.flowing;
+
+    public static final FluidEntry HINEUR_ENTRY = registerFluid("hineur", 0xFF25A96C, 2150, 1080, 950);
+    public static final RegistryObject<ForgeFlowingFluid> HINEUR = HINEUR_ENTRY.source;
+    public static final RegistryObject<ForgeFlowingFluid> FLOWING_HINEUR = HINEUR_ENTRY.flowing;
+
     private static FluidEntry registerFluid(
             String name,
             int color,

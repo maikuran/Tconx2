@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "sakalti2:knitz",
+    "amount": 1296
+  },
+  "result": "sakalti2:knitz_block",
+  "cooling_time": 225
+}

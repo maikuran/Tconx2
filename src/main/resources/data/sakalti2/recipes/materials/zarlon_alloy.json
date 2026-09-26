@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "sakalti2:osium",
+      "amount": 72
+    },
+    {
+      "name": "sakalti2:ignitz",
+      "amount": 72
+    }
+  ],
+  "result": {
+    "fluid": "sakalti2:zarlon",
+    "amount": 144
+  },
+  "temperature": 1050
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "tconstruct:ingot_cast"
+  },
+  "fluid": {
+    "name": "sakalti2:zarlon",
+    "amount": 144
+  },
+  "result": "sakalti2:zarlon_ingot",
+  "cooling_time": 40
+}

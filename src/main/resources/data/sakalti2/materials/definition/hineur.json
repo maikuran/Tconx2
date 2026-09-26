@@ -1,0 +1,10 @@
+{
+  "craftable": false,
+  "tier": 2,
+  "sortOrder": 8,
+  "textColor": "#25A96C",
+  "hidden": false,
+  "fluid": "sakalti2:hineur",
+  "fluidPerUnit": 144,
+  "temperature": 950
+}

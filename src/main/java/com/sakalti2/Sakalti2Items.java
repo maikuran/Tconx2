@@ -27,6 +27,10 @@ public final class Sakalti2Items {
     public static final RegistryObject<Item> IGNITZ_BLOCK = block("ignitz_block", Sakalti2Blocks.IGNITZ_BLOCK);
     public static final RegistryObject<Item> AUROREUM_BLOCK = block("auroreum_block", Sakalti2Blocks.AUROREUM_BLOCK);
     public static final RegistryObject<Item> TRIUM_BLOCK = block("trium_block", Sakalti2Blocks.TRIUM_BLOCK);
+    public static final RegistryObject<Item> ZARLON_BLOCK = block("zarlon_block", Sakalti2Blocks.ZARLON_BLOCK);
+    public static final RegistryObject<Item> KNITZ_BLOCK = block("knitz_block", Sakalti2Blocks.KNITZ_BLOCK);
+    public static final RegistryObject<Item> SITUAN_BLOCK = block("situan_block", Sakalti2Blocks.SITUAN_BLOCK);
+    public static final RegistryObject<Item> HINEUR_BLOCK = block("hineur_block", Sakalti2Blocks.HINEUR_BLOCK);
 
     public static final RegistryObject<Item> RAW_OSIUM = simple("raw_osium");
     public static final RegistryObject<Item> OSIUM_INGOT = simple("osium_ingot");
@@ -36,6 +40,10 @@ public final class Sakalti2Items {
     public static final RegistryObject<Item> AUROREUM_INGOT = simple("auroreum_ingot");
     public static final RegistryObject<Item> RAW_TRIUM = simple("raw_trium");
     public static final RegistryObject<Item> TRIUM_INGOT = simple("trium_ingot");
+    public static final RegistryObject<Item> ZARLON_INGOT = simple("zarlon_ingot");
+    public static final RegistryObject<Item> KNITZ_INGOT = simple("knitz_ingot");
+    public static final RegistryObject<Item> SITUAN_INGOT = simple("situan_ingot");
+    public static final RegistryObject<Item> HINEUR_INGOT = simple("hineur_ingot");
 
     public static final RegistryObject<Item> OSIUM_BUCKET =
             bucket("osium_bucket", Sakalti2Fluids.OSIUM);
@@ -45,6 +53,14 @@ public final class Sakalti2Items {
             bucket("auroreum_bucket", Sakalti2Fluids.AUROREUM);
     public static final RegistryObject<Item> TRIUM_BUCKET =
             bucket("trium_bucket", Sakalti2Fluids.TRIUM);
+    public static final RegistryObject<Item> ZARLON_BUCKET =
+            bucket("zarlon_bucket", Sakalti2Fluids.ZARLON);
+    public static final RegistryObject<Item> KNITZ_BUCKET =
+            bucket("knitz_bucket", Sakalti2Fluids.KNITZ);
+    public static final RegistryObject<Item> SITUAN_BUCKET =
+            bucket("situan_bucket", Sakalti2Fluids.SITUAN);
+    public static final RegistryObject<Item> HINEUR_BUCKET =
+            bucket("hineur_bucket", Sakalti2Fluids.HINEUR);
 
     private static RegistryObject<Item> simple(String id) {
         return ITEMS.register(id, () -> new Item(

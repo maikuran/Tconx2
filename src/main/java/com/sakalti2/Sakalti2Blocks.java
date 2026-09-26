@@ -28,6 +28,10 @@ public final class Sakalti2Blocks {
     public static final RegistryObject<Block> IGNITZ_BLOCK = metal("ignitz_block");
     public static final RegistryObject<Block> AUROREUM_BLOCK = metal("auroreum_block");
     public static final RegistryObject<Block> TRIUM_BLOCK = metal("trium_block");
+    public static final RegistryObject<Block> ZARLON_BLOCK = metal("zarlon_block");
+    public static final RegistryObject<Block> KNITZ_BLOCK = metal("knitz_block");
+    public static final RegistryObject<Block> SITUAN_BLOCK = metal("situan_block");
+    public static final RegistryObject<Block> HINEUR_BLOCK = metal("hineur_block");
 
     public static final RegistryObject<FlowingFluidBlock> OSIUM_FLUID_BLOCK =
             fluid("osium_fluid", () -> Sakalti2Fluids.OSIUM.get());
@@ -37,6 +41,14 @@ public final class Sakalti2Blocks {
             fluid("auroreum_fluid", () -> Sakalti2Fluids.AUROREUM.get());
     public static final RegistryObject<FlowingFluidBlock> TRIUM_FLUID_BLOCK =
             fluid("trium_fluid", () -> Sakalti2Fluids.TRIUM.get());
+    public static final RegistryObject<FlowingFluidBlock> ZARLON_FLUID_BLOCK =
+            fluid("zarlon_fluid", () -> Sakalti2Fluids.ZARLON.get());
+    public static final RegistryObject<FlowingFluidBlock> KNITZ_FLUID_BLOCK =
+            fluid("knitz_fluid", () -> Sakalti2Fluids.KNITZ.get());
+    public static final RegistryObject<FlowingFluidBlock> SITUAN_FLUID_BLOCK =
+            fluid("situan_fluid", () -> Sakalti2Fluids.SITUAN.get());
+    public static final RegistryObject<FlowingFluidBlock> HINEUR_FLUID_BLOCK =
+            fluid("hineur_fluid", () -> Sakalti2Fluids.HINEUR.get());
 
     private static RegistryObject<Block> ore(String id, float hardness) {
         return BLOCKS.register(id, () -> new Block(
