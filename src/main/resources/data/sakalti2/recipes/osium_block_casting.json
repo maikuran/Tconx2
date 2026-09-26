@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "sakalti2:osium",
+    "amount": 1296
+  },
+  "result": "sakalti2:osium_block",
+  "cooling_time": 225
+}

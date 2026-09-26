@@ -3,6 +3,6 @@
   "cast": {
     "item": "tconstruct:repair_kit_cast"
   },
-  "item_cost": 2,
-  "result": "tconstruct:repair_kit"
+  "result": "tconstruct:repair_kit",
+  "fluid_amount": 288
 }

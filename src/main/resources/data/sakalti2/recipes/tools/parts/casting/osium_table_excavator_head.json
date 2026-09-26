@@ -3,6 +3,6 @@
   "cast": {
     "item": "tconstruct:excavator_head_cast"
   },
-  "item_cost": 8,
-  "result": "tconstruct:excavator_head"
+  "result": "tconstruct:excavator_head",
+  "fluid_amount": 1152
 }

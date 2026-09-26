@@ -3,6 +3,6 @@
   "cast": {
     "item": "tconstruct:round_plate_cast"
   },
-  "item_cost": 3,
-  "result": "tconstruct:round_plate"
+  "result": "tconstruct:round_plate",
+  "fluid_amount": 432
 }

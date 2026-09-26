@@ -3,6 +3,6 @@
   "cast": {
     "item": "tconstruct:tool_handle_cast"
   },
-  "item_cost": 1,
-  "result": "tconstruct:tool_handle"
+  "result": "tconstruct:tool_handle",
+  "fluid_amount": 144
 }
