@@ -1,0 +1,8 @@
+{
+  "type": "tconstruct:basin_casting_material",
+  "cast": {
+    "item": "tconstruct:small_axe_head_cast"
+  },
+  "item_cost": 2,
+  "result": "tconstruct:small_axe_head"
+}

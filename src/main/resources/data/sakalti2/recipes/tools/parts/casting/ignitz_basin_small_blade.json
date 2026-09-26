@@ -1,0 +1,8 @@
+{
+  "type": "tconstruct:basin_casting_material",
+  "cast": {
+    "item": "tconstruct:small_blade_cast"
+  },
+  "item_cost": 1,
+  "result": "tconstruct:small_blade"
+}

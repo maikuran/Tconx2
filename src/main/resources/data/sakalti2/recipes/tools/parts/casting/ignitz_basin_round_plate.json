@@ -1,0 +1,8 @@
+{
+  "type": "tconstruct:basin_casting_material",
+  "cast": {
+    "item": "tconstruct:round_plate_cast"
+  },
+  "item_cost": 3,
+  "result": "tconstruct:round_plate"
+}

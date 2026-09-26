@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "sakalti2:auroreum",
+  "temperature": 1100,
+  "result": {
+    "fluid": "sakalti2:auroreum",
+    "amount": 144
+  }
+}
