@@ -30,9 +30,17 @@ versionRange="[3.3,)"
 ordering="AFTER"
 side="BOTH"
 
+
 [[dependencies.sakalti2]]
-modId="sakalti2"
-mandatory=true
-versionRange="[1.0.4,)"
+modId="constructsarmory"
+mandatory=false
+versionRange="[2.0.0-alpha.2,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.sakalti2]]
+modId="tinkersarchery"
+mandatory=false
+versionRange="[1.16.5,)"
 ordering="AFTER"
 side="BOTH"

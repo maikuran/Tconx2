@@ -1,1 +1,53 @@
-{"stats":{"tconstruct:handle":{"durability":1.0,"attackDamage":1.0,"attackSpeed":1.0},"tconstruct:head":{"durability":250,"attack":3.0,"miningSpeed":4.0,"harvestLevel":2},"tconstruct:extra":{}}}
+{
+  "stats": {
+    "tconstruct:handle": {
+      "durability": 1.0,
+      "attackDamage": 1.0,
+      "attackSpeed": 1.0,
+      "miningSpeed": 1.0
+    },
+    "tconstruct:head": {
+      "durability": 250,
+      "attack": 3.0,
+      "miningSpeed": 4.0,
+      "harvestLevel": 2
+    },
+    "tconstruct:extra": {},
+    "constructsarmory:mail": {
+      "durability": 0.9,
+      "armor": 1.0,
+      "movementSpeed": 1.0
+    },
+    "constructsarmory:plate": {
+      "durability": 356.0,
+      "armor": 10.0,
+      "toughness": 1.5,
+      "knockbackResistance": 0.0,
+      "movementSpeed": 0.0
+    },
+    "tinkersarchery:arrowhead": {
+      "count": 1,
+      "miningSpeed": 4.0,
+      "harvestLevel": 2,
+      "attack": 1.2,
+      "weight": 1.0,
+      "stability": 1.0,
+      "accuracy": 1.0
+    },
+    "tinkersarchery:bowguide": {},
+    "tinkersarchery:bow": {
+      "durability": 250,
+      "elasticity": 1.0,
+      "drawSpeed": 1.0
+    },
+    "tinkersarchery:arrow_shaft": {
+      "count": 1.0,
+      "miningSpeed": 1.0,
+      "attackSpeed": 1.0,
+      "attackDamage": 1.0,
+      "weight": 1.0,
+      "stability": 1.0,
+      "accuracy": 1.0
+    }
+  }
+}
