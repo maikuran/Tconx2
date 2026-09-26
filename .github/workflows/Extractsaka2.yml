@@ -2,7 +2,6 @@ name: Extract Sakalti2 Source
 
 on:
   workflow_dispatch:
-    
 
 permissions:
   contents: write
@@ -17,22 +16,32 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Extract Sakalti2-src.zip
+      - name: Extract Sakalti2-src.zip to repository root
         shell: bash
         run: |
           set -e
 
-          rm -rf Sakalti2-src
-          mkdir -p Sakalti2-src
+          rm -rf .extract_tmp
+          mkdir .extract_tmp
 
-          unzip -q Sakalti2-src.zip -d Sakalti2-src
+          unzip -q Sakalti2-src.zip -d .extract_tmp
+
+          # ZIP内の Sakalti2-src/ を取り除き、
+          # 中身をリポジトリ直下へ配置
+          if [ -d ".extract_tmp/Sakalti2-src" ]; then
+            cp -a .extract_tmp/Sakalti2-src/. .
+          else
+            cp -a .extract_tmp/. .
+          fi
+
+          rm -rf .extract_tmp
 
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit extracted source
+      - name: Commit extracted files
         shell: bash
         run: |
           set -e
