@@ -7,34 +7,31 @@ permissions:
   contents: write
 
 jobs:
-  extract-and-commit:
+  extract:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Extract Sakalti2-src.zip to repository root
+      - name: Extract ZIP to repository root
         shell: bash
         run: |
-          set -e
+          set -euo pipefail
 
-          rm -rf .extract_tmp
-          mkdir .extract_tmp
+          test -f Sakalti2-src.zip
 
-          unzip -q Sakalti2-src.zip -d .extract_tmp
+          unzip -q -o Sakalti2-src.zip -d .
 
-          # ZIP内の Sakalti2-src/ を取り除き、
-          # 中身をリポジトリ直下へ配置
-          if [ -d ".extract_tmp/Sakalti2-src" ]; then
-            cp -a .extract_tmp/Sakalti2-src/. .
-          else
-            cp -a .extract_tmp/. .
+          # ZIP内部に Sakalti2-src/ という親ディレクトリがある場合、
+          # その中身をリポジトリ直下へ移動する
+          if [ -d "Sakalti2-src" ]; then
+            shopt -s dotglob
+            cp -a Sakalti2-src/. .
+            rm -rf Sakalti2-src
           fi
-
-          rm -rf .extract_tmp
 
       - name: Configure Git
         run: |
@@ -44,7 +41,7 @@ jobs:
       - name: Commit extracted files
         shell: bash
         run: |
-          set -e
+          set -euo pipefail
 
           git add -A
 
