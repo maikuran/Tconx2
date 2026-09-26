@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sakalti2:trium_block"
+    }
+  ],
+  "result": {
+    "item": "sakalti2:trium_ingot",
+    "count": 9
+  }
+}

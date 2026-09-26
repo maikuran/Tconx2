@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "sakalti2:raw_auroreum"
+  },
+  "result": "sakalti2:auroreum_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}
