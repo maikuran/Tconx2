@@ -1,0 +1,49 @@
+name: Extract Sakalti2 Source
+
+on:
+  push:
+    paths:
+      - "Sakalti2-src.zip"
+
+permissions:
+  contents: write
+
+jobs:
+  extract-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Extract Sakalti2-src.zip
+        shell: bash
+        run: |
+          set -e
+
+          rm -rf Sakalti2-src
+          mkdir -p Sakalti2-src
+
+          unzip -q Sakalti2-src.zip -d Sakalti2-src
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit extracted source
+        shell: bash
+        run: |
+          set -e
+
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Extract Sakalti2 source"
+          git push
