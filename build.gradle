@@ -11,8 +11,8 @@ sourceSets {
     }
 }
 
-group = 'com.sakalti'
-archivesBaseName = 'sakalti'
+group = 'com.sakalti2'
+archivesBaseName = 'sakalti2'
 version = '1.0.0'
 
 java {
@@ -76,12 +76,12 @@ dependencies {
 jar {
     manifest {
         attributes(
-            'Specification-Title': 'sakalti',
-            'Specification-Vendor': 'sakalti',
+            'Specification-Title': 'sakalti2',
+            'Specification-Vendor': 'sakalti2',
             'Specification-Version': '1.0.0',
             'Implementation-Title': project.name,
             'Implementation-Version': project.version,
-            'Implementation-Vendor': 'sakalti'
+            'Implementation-Vendor': 'sakalti2'
         )
     }
 }
