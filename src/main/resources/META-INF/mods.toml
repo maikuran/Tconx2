@@ -7,7 +7,7 @@ modId="sakalti2"
 version="1.0.0"
 displayName="Sakalti2"
 authors="Sakalti"
-description="Geo, Hell, Mystic and Ratio Rank-1 material set."
+description="Alloying!"
 
 [[dependencies.sakalti2]]
 modId="forge"
@@ -29,4 +29,3 @@ mandatory=true
 versionRange="[3.3,)"
 ordering="AFTER"
 side="BOTH"
-
