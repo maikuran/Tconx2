@@ -12,7 +12,7 @@ public class UnstableModifier extends Modifier {
         super(0xCC00FF);
     }
 
-    @Override
+    
     public float getEntityDamage(IModifierToolStack tool, int level, ToolAttackContext context,
                                  float damage, float baseDamage) {
         LivingEntity attacker = context.getAttacker();
