@@ -11,7 +11,7 @@ public class UnderpressModifier extends Modifier {
         super(0x8E7B5A);
     }
 
-    
+    @Override
     public int afterEntityHit(IModifierToolStack tool, int level, ToolAttackContext context, float damage) {
         LivingEntity target = context.getLivingTarget();
         if (target != null && !target.level.isClientSide) {
