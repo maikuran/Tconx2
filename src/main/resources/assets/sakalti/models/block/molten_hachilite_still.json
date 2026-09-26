@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/block",
-  "textures": {
-    "layer0": "sakalti:block/molten_hachilite_still"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "craftable": true,
-  "tier": 5,
-  "sortOrder": 5,
-  "hidden": false,
-  "color": "#996699",
-  "fluid": "sakalti:momongaite",
-  "translationKey": "material.sakalti.momongaite"
-}

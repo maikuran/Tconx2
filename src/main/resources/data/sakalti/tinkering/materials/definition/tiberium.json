@@ -1,9 +1,0 @@
-{
-  "craftable": true,
-  "tier": 6,
-  "sortOrder": 6,
-  "hidden": false,
-  "color": "#8200ff",
-  "fluid": "sakalti:tiberium",
-  "translationKey": "material.sakalti.tiberium"
-}
