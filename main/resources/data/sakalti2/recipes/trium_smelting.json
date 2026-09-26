@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "sakalti2:raw_trium"
-  },
-  "result": "sakalti2:trium_ingot",
-  "experience": 1.0,
-  "cookingtime": 200
-}
