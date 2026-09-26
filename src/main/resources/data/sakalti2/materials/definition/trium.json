@@ -3,5 +3,8 @@
   "tier": 1,
   "sortOrder": 4,
   "textColor": "#D0D0D0",
-  "hidden": false
+  "hidden": false,
+  "fluid": "sakalti2:trium",
+  "fluidPerUnit": 144,
+  "temperature": 850
 }

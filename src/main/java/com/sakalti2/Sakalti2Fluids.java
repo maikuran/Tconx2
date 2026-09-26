@@ -18,261 +18,114 @@ import net.minecraftforge.registries.ForgeRegistries;
 public final class Sakalti2Fluids {
 
     public static final DeferredRegister<Fluid> FLUIDS =
-            DeferredRegister.create(
-                    ForgeRegistries.FLUIDS,
-                    Sakalti2Main.MODID
-            );
+            DeferredRegister.create(ForgeRegistries.FLUIDS, Sakalti2Main.MODID);
 
-    /*
-     * ------------------------------------------------------------
-     * Fluid registry objects
-     * ------------------------------------------------------------
-     *
-     * ここでは他のFluid RegistryObjectを直接初期化式から
-     * 参照しない。
-     *
-     * properties() 内では ResourceLocation から registry を
-     * 解決するため、Javaの illegal forward reference を
-     * 完全に回避できる。
-     */
+    public static final FluidEntry OSIUM_ENTRY = registerFluid("osium", 0xFF5A321E, 2000, 1000, 1900);
+    public static final RegistryObject<ForgeFlowingFluid> OSIUM = OSIUM_ENTRY.source;
+    public static final RegistryObject<ForgeFlowingFluid> FLOWING_OSIUM = OSIUM_ENTRY.flowing;
 
-    public static final RegistryObject<FlowingFluid> OSIUM =
-            registerSource("osium", "flowing_osium", "osium");
+    public static final FluidEntry IGNITZ_ENTRY = registerFluid("ignitz", 0xFFFF5555, 2000, 1000, 1900);
+    public static final RegistryObject<ForgeFlowingFluid> IGNITZ = IGNITZ_ENTRY.source;
+    public static final RegistryObject<ForgeFlowingFluid> FLOWING_IGNITZ = IGNITZ_ENTRY.flowing;
 
-    public static final RegistryObject<FlowingFluid> FLOWING_OSIUM =
-            registerFlowing("flowing_osium", "osium", "flowing_osium");
+    public static final FluidEntry AUROREUM_ENTRY = registerFluid("auroreum", 0xFFF2D56B, 2000, 1000, 1900);
+    public static final RegistryObject<ForgeFlowingFluid> AUROREUM = AUROREUM_ENTRY.source;
+    public static final RegistryObject<ForgeFlowingFluid> FLOWING_AUROREUM = AUROREUM_ENTRY.flowing;
 
-    public static final RegistryObject<FlowingFluid> IGNITZ =
-            registerSource("ignitz", "flowing_ignitz", "ignitz");
+    public static final FluidEntry TRIUM_ENTRY = registerFluid("trium", 0xFFD0D0D0, 2000, 1000, 1900);
+    public static final RegistryObject<ForgeFlowingFluid> TRIUM = TRIUM_ENTRY.source;
+    public static final RegistryObject<ForgeFlowingFluid> FLOWING_TRIUM = TRIUM_ENTRY.flowing;
 
-    public static final RegistryObject<FlowingFluid> FLOWING_IGNITZ =
-            registerFlowing("flowing_ignitz", "ignitz", "flowing_ignitz");
+    private static FluidEntry registerFluid(
+            String name,
+            int color,
+            int density,
+            int viscosity,
+            int temperature) {
 
-    public static final RegistryObject<FlowingFluid> AUROREUM =
-            registerSource("auroreum", "flowing_auroreum", "auroreum");
+        FluidEntry entry = new FluidEntry(name, color, density, viscosity, temperature);
 
-    public static final RegistryObject<FlowingFluid> FLOWING_AUROREUM =
-            registerFlowing("flowing_auroreum", "auroreum", "flowing_auroreum");
+        entry.source = FLUIDS.register(
+                name,
+                () -> new ForgeFlowingFluid.Source(createProperties(entry)));
 
-    public static final RegistryObject<FlowingFluid> TRIUM =
-            registerSource("trium", "flowing_trium", "trium");
+        entry.flowing = FLUIDS.register(
+                name + "_flow",
+                () -> new ForgeFlowingFluid.Flowing(createProperties(entry)));
 
-    public static final RegistryObject<FlowingFluid> FLOWING_TRIUM =
-            registerFlowing("flowing_trium", "trium", "flowing_trium");
-
-
-    /*
-     * ------------------------------------------------------------
-     * Registration
-     * ------------------------------------------------------------
-     */
-
-    private static RegistryObject<FlowingFluid> registerSource(
-            String id,
-            String flowingId,
-            String blockId) {
-
-        return FLUIDS.register(
-                id,
-                () -> new ForgeFlowingFluid.Source(
-                        properties(id, flowingId, blockId)
-                )
-        );
+        return entry;
     }
 
-    private static RegistryObject<FlowingFluid> registerFlowing(
-            String id,
-            String sourceId,
-            String blockId) {
+    private static ForgeFlowingFluid.Properties createProperties(FluidEntry entry) {
+        ResourceLocation still = new ResourceLocation(
+                Sakalti2Main.MODID,
+                "fluid/" + entry.name + "_still");
 
-        return FLUIDS.register(
-                id,
-                () -> new ForgeFlowingFluid.Flowing(
-                        properties(sourceId, id, blockId)
-                )
-        );
-    }
+        ResourceLocation flowing = new ResourceLocation(
+                Sakalti2Main.MODID,
+                "fluid/" + entry.name + "_flow");
 
-
-    /*
-     * ------------------------------------------------------------
-     * Properties
-     * ------------------------------------------------------------
-     *
-     * 重要：
-     *
-     * OSIUM / FLOWING_OSIUM などを直接参照しない。
-     *
-     * RegistryObjectの相互参照をここで行うと、
-     * Fluid -> Block -> Fluid
-     * Fluid -> Item -> Fluid
-     * の循環初期化を作ってしまう。
-     *
-     * そのため、registry nameを使って登録時に解決する。
-     */
-
-    private static ForgeFlowingFluid.Properties properties(
-            String sourceId,
-            String flowingId,
-            String blockId) {
-
-        int color = colorFor(sourceId);
-
-        Supplier<FlowingFluid> source =
-                () -> getFluid(sourceId);
-
-        Supplier<FlowingFluid> flowing =
-                () -> getFluid(flowingId);
-
-        Supplier<FlowingFluidBlock> block =
-                () -> getFluidBlock(blockId);
-
-        Supplier<Item> bucket =
-                () -> getBucket(sourceId);
+        FluidAttributes.Builder attributes = FluidAttributes.builder(still, flowing)
+                .color(entry.color)
+                .density(entry.density)
+                .viscosity(entry.viscosity)
+                .temperature(entry.temperature);
 
         return new ForgeFlowingFluid.Properties(
-                source,
-                flowing,
-                attributes(color)
-        )
-                .block(block)
-                .bucket(bucket);
+                entry.source,
+                entry.flowing,
+                attributes)
+                .slopeFindDistance(4)
+                .levelDecreasePerBlock(1)
+                .block(() -> findFluidBlock(entry.name).get())
+                .bucket(() -> findBucket(entry.name).get());
     }
 
-
-    /*
-     * ------------------------------------------------------------
-     * Registry lookup
-     * ------------------------------------------------------------
-     */
-
-    private static FlowingFluid getFluid(String id) {
-
-        Fluid fluid = FLUIDS.getEntries().stream()
-                .filter(entry ->
-                        entry.getId().getPath().equals(id))
-                .map(RegistryObject::get)
+    @SuppressWarnings("unchecked")
+    private static RegistryObject<FlowingFluidBlock> findFluidBlock(String name) {
+        String id = name + "_fluid";
+        return (RegistryObject<FlowingFluidBlock>) (RegistryObject<?>) Sakalti2Blocks.BLOCKS
+                .getEntries()
+                .stream()
+                .filter(entry -> entry.getId().getPath().equals(id))
                 .findFirst()
-                .orElseThrow(() ->
-                        new IllegalStateException(
-                                "Sakalti2 fluid not registered: " + id
-                        )
-                );
-
-        return (FlowingFluid) fluid;
+                .orElseThrow(() -> new IllegalStateException(
+                        "Missing Sakalti2 fluid block: " + id));
     }
 
-
-    private static FlowingFluidBlock getFluidBlock(String id) {
-
-        RegistryObject<FlowingFluidBlock> block;
-
-        switch (id) {
-
-            case "osium":
-                block = Sakalti2Blocks.OSIUM_FLUID_BLOCK;
-                break;
-
-            case "ignitz":
-                block = Sakalti2Blocks.IGNITZ_FLUID_BLOCK;
-                break;
-
-            case "auroreum":
-                block = Sakalti2Blocks.AUROREUM_FLUID_BLOCK;
-                break;
-
-            case "trium":
-                block = Sakalti2Blocks.TRIUM_FLUID_BLOCK;
-                break;
-
-            default:
-                throw new IllegalStateException(
-                        "Unknown Sakalti2 fluid block: " + id
-                );
-        }
-
-        return block.get();
+    @SuppressWarnings("unchecked")
+    private static RegistryObject<Item> findBucket(String name) {
+        String id = name + "_bucket";
+        return (RegistryObject<Item>) (RegistryObject<?>) Sakalti2Items.ITEMS
+                .getEntries()
+                .stream()
+                .filter(entry -> entry.getId().getPath().equals(id))
+                .findFirst()
+                .orElseThrow(() -> new IllegalStateException(
+                        "Missing Sakalti2 fluid bucket: " + id));
     }
-
-
-    private static Item getBucket(String sourceId) {
-
-        switch (sourceId) {
-
-            case "osium":
-                return Sakalti2Items.OSIUM_BUCKET.get();
-
-            case "ignitz":
-                return Sakalti2Items.IGNITZ_BUCKET.get();
-
-            case "auroreum":
-                return Sakalti2Items.AUROREUM_BUCKET.get();
-
-            case "trium":
-                return Sakalti2Items.TRIUM_BUCKET.get();
-
-            default:
-                throw new IllegalStateException(
-                        "Unknown Sakalti2 fluid bucket: " + sourceId
-                );
-        }
-    }
-
-
-    /*
-     * ------------------------------------------------------------
-     * Fluid attributes
-     * ------------------------------------------------------------
-     */
-
-    private static FluidAttributes.Builder attributes(int color) {
-
-        return FluidAttributes.builder(
-                        new ResourceLocation(
-                                "minecraft",
-                                "block/water_still"
-                        ),
-                        new ResourceLocation(
-                                "minecraft",
-                                "block/water_flow"
-                        )
-                )
-                .color(color)
-                .density(2000)
-                .viscosity(2500)
-                .luminosity(0);
-    }
-
-
-    private static int colorFor(String id) {
-
-        switch (id) {
-
-            case "osium":
-                return 0xFF5A321E;
-
-            case "ignitz":
-                return 0xFFFF5555;
-
-            case "auroreum":
-                return 0xFFF2D56B;
-
-            case "trium":
-                return 0xFFD0D0D0;
-
-            default:
-                throw new IllegalArgumentException(
-                        "Unknown Sakalti2 fluid: " + id
-                );
-        }
-    }
-
 
     public static void register(IEventBus bus) {
         FLUIDS.register(bus);
     }
 
+    public static final class FluidEntry {
+        public final String name;
+        public final int color;
+        public final int density;
+        public final int viscosity;
+        public final int temperature;
+        private RegistryObject<ForgeFlowingFluid> source;
+        private RegistryObject<ForgeFlowingFluid> flowing;
 
-    private Sakalti2Fluids() {
+        private FluidEntry(String name, int color, int density, int viscosity, int temperature) {
+            this.name = name;
+            this.color = color;
+            this.density = density;
+            this.viscosity = viscosity;
+            this.temperature = temperature;
+        }
     }
+
+    private Sakalti2Fluids() {}
 }

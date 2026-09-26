@@ -3,5 +3,8 @@
   "tier": 1,
   "sortOrder": 1,
   "textColor": "#5A321E",
-  "hidden": false
+  "hidden": false,
+  "fluid": "sakalti2:osium",
+  "fluidPerUnit": 144,
+  "temperature": 900
 }

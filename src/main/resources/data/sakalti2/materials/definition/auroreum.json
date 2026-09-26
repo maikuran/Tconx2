@@ -3,5 +3,8 @@
   "tier": 2,
   "sortOrder": 3,
   "textColor": "#F2D56B",
-  "hidden": false
+  "hidden": false,
+  "fluid": "sakalti2:auroreum",
+  "fluidPerUnit": 144,
+  "temperature": 1100
 }
