@@ -1,0 +1,5 @@
+Texture revision
+1. Block textures: metallic block treatment with retained highlight/shading; no ore-fleck appearance.
+2. Bucket textures: only the blue water region from the supplied water_bucket.png is recolored.
+3. The grayscale iron bucket body, handle and metal rim are NOT recolored.
+4. No generated/reference artwork was added; supplied vanilla base images were used for the texture processing.
