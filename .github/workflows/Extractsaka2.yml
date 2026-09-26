@@ -22,19 +22,35 @@ jobs:
           set -e
 
           tmp_dir="$(mktemp -d)"
-
           unzip -q "Sakalti2-src.zip" -d "$tmp_dir"
 
-          # ZIP内の最上位ディレクトリが存在する場合、
-          # その中身だけをリポジトリ直下へ移動する。
+          # ZIP内の最上位ディレクトリを取得
           top_count="$(find "$tmp_dir" -mindepth 1 -maxdepth 1 | wc -l)"
 
           if [ "$top_count" -eq 1 ] && [ -d "$(find "$tmp_dir" -mindepth 1 -maxdepth 1 -type d)" ]; then
             source_dir="$(find "$tmp_dir" -mindepth 1 -maxdepth 1 -type d)"
-            cp -a "$source_dir"/. .
           else
-            cp -a "$tmp_dir"/. .
+            source_dir="$tmp_dir"
           fi
+
+          # 必ずリポジトリ直下を src/ にする
+          rm -rf src
+          mkdir -p src
+
+          # ZIP内が src/ なら、その中身を取り出す
+          if [ "$(basename "$source_dir")" = "src" ]; then
+            cp -a "$source_dir"/. src/
+          else
+            cp -a "$source_dir"/. src/
+          fi
+
+          # src/main が存在する場合も、そのまま src/main にする
+          # 例:
+          # ZIP -> main/
+          # Repository -> src/main/
+          #
+          # ZIP -> src/main/
+          # Repository -> src/main/
 
           rm -rf "$tmp_dir"
 
