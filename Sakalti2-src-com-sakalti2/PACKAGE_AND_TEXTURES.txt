@@ -1,6 +1,0 @@
-Java package: com.sakalti2
-Mod ID: sakalti2
-
-Block textures were rebuilt specifically as metallic blocks.
-The supplied iron ingot texture is used as the metallic shading reference;
-the textures retain hard pixel-art edges and stronger light/dark contrast.
