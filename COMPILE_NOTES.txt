@@ -1,0 +1,8 @@
+Sakalti2 source tree
+Mod ID: sakalti2
+Target reference: Minecraft Forge 1.16.5 / Tinkers Construct 3.3+ / Mantle 1.6+
+No build.gradle included by request.
+
+Content per material: ore, raw material (where applicable), ingot, metal block, fluid, flowing fluid and bucket.
+Textures are included as 16x16 procedural metal-look PNGs.
+Osium reuses the original sakalti:unstable trait by resource reference where TCon data compatibility permits it.
