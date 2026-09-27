@@ -2,5 +2,9 @@
   "material.hachilite": "ハチライト",
   "material.hachilite.head": "ハチライトのヘッド",
   "material.hachilite.handle": "ハチライトの柄",
-  "material.hachilite.extra": "ハチライトの追加"
+  "material.hachilite.extra": "ハチライトの追加",
+  "modifier.sakalti2.resonant_rend": "響き裂き",
+  "modifier.sakalti2.crimson_bind": "あか結び",
+  "modifier.sakalti2.prismatic_drive": "プリズマティックドライブ",
+  "modifier.sakalti2.layered_renewal": "重ね直し"
 }

@@ -37,3 +37,10 @@ mandatory=false
 versionRange="[2.0.0-alpha.2,)"
 ordering="AFTER"
 side="BOTH"
+
+[[dependencies.sakalti2]]
+modId="tdelight"
+mandatory=false
+versionRange="[1.16-1.8,)"
+ordering="AFTER"
+side="BOTH"

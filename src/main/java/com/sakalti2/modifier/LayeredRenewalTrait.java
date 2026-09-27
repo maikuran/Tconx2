@@ -15,7 +15,7 @@ public class LayeredRenewalTrait extends Modifier {
         super(0x2E985A);
     }
 
-    
+    @Override
     public int afterEntityHit(IModifierToolStack tool, int level, ToolAttackContext context, float damage) {
         LivingEntity attacker = context.getAttacker();
         LivingEntity target = context.getLivingTarget();

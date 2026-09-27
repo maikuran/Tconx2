@@ -15,7 +15,7 @@ public class PrismaticDriveTrait extends Modifier {
         super(0x438FE5);
     }
 
-    
+    @Override
     public int afterEntityHit(IModifierToolStack tool, int level, ToolAttackContext context, float damage) {
         LivingEntity attacker = context.getAttacker();
         if (attacker == null || attacker.level.isClientSide || level <= 0) {
