@@ -15,7 +15,7 @@ public class ResonantRendTrait extends Modifier {
         super(0x7544C6);
     }
 
-    @Override
+    
     public int afterEntityHit(IModifierToolStack tool, int level, ToolAttackContext context, float damage) {
         LivingEntity target = context.getLivingTarget();
         LivingEntity attacker = context.getAttacker();
