@@ -1,12 +1,9 @@
 {
-  "type": "tconstruct:melting",
-  "ingredient": {
-    "item": "sakalti2:babelium_ingot"
-  },
+  "type": "tconstruct:material_melting",
+  "input": "sakalti2:babelium",
+  "temperature": 1450,
   "result": {
     "fluid": "sakalti2:babelium",
     "amount": 144
-  },
-  "temperature": 1650,
-  "time": 20
+  }
 }

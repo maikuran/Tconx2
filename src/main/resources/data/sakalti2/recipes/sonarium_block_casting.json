@@ -4,6 +4,8 @@
     "name": "sakalti2:sonarium",
     "amount": 1296
   },
-  "result": "sakalti2:sonarium_block",
-  "cooling_time": 240
+  "result": {
+    "item": "sakalti2:sonarium_block"
+  },
+  "cooling_time": 171
 }

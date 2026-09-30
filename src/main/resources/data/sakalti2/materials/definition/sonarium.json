@@ -1,10 +1,10 @@
 {
   "craftable": false,
   "tier": 3,
-  "sortOrder": 7,
-  "textColor": "#E54832",
+  "sortOrder": 21,
+  "textColor": "#E34A28",
   "hidden": false,
   "fluid": "sakalti2:sonarium",
   "fluidPerUnit": 144,
-  "temperature": 1350
+  "temperature": 1250
 }

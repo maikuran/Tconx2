@@ -55,10 +55,14 @@ public final class Sakalti2OreGeneration {
                     Sakalti2Blocks.OSIUM_ORE.get().defaultBlockState(), 6, 8, 5, 80);
             add(generation, OreFeatureConfig.FillerBlockType.NATURAL_STONE,
                     Sakalti2Blocks.TRIUM_ORE.get().defaultBlockState(), 3, 3, 4, 32);
-            add(generation, OreFeatureConfig.FillerBlockType.NATURAL_STONE, Sakalti2Blocks.IRES_ORE.get().defaultBlockState(), 4, 5, 10, 72);
-            add(generation, OreFeatureConfig.FillerBlockType.NATURAL_STONE, Sakalti2Blocks.SONARIUM_ORE.get().defaultBlockState(), 3, 4, 5, 48);
-            add(generation, OreFeatureConfig.FillerBlockType.NATURAL_STONE, Sakalti2Blocks.RINALITE_ORE.get().defaultBlockState(), 5, 6, 20, 90);
-            add(generation, OreFeatureConfig.FillerBlockType.NATURAL_STONE, Sakalti2Blocks.MAGNUM_ORE.get().defaultBlockState(), 2, 2, 4, 24);
+            add(generation, OreFeatureConfig.FillerBlockType.NATURAL_STONE,
+                    Sakalti2Blocks.IRES_ORE.get().defaultBlockState(), 4, 5, 8, 28);
+            add(generation, OreFeatureConfig.FillerBlockType.NATURAL_STONE,
+                    Sakalti2Blocks.SONARIUM_ORE.get().defaultBlockState(), 5, 6, 12, 48);
+            add(generation, OreFeatureConfig.FillerBlockType.NATURAL_STONE,
+                    Sakalti2Blocks.RINALITE_ORE.get().defaultBlockState(), 5, 5, 20, 60);
+            add(generation, OreFeatureConfig.FillerBlockType.NATURAL_STONE,
+                    Sakalti2Blocks.MAGNUM_ORE.get().defaultBlockState(), 4, 4, 4, 24);
         }
     }
 

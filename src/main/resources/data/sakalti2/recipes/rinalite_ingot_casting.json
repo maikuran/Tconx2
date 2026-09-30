@@ -8,6 +8,8 @@
     "name": "sakalti2:rinalite",
     "amount": 144
   },
-  "result": "sakalti2:rinalite_ingot",
-  "cooling_time": 54
+  "result": {
+    "item": "sakalti2:rinalite_ingot"
+  },
+  "cooling_time": 57
 }

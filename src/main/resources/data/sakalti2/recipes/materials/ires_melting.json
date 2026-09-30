@@ -1,12 +1,9 @@
 {
-  "type": "tconstruct:melting",
-  "ingredient": {
-    "item": "sakalti2:ires_ingot"
-  },
+  "type": "tconstruct:material_melting",
+  "input": "sakalti2:ires",
+  "temperature": 1350,
   "result": {
     "fluid": "sakalti2:ires",
     "amount": 144
-  },
-  "temperature": 1250,
-  "time": 20
+  }
 }

@@ -4,6 +4,8 @@
     "name": "sakalti2:ires",
     "amount": 1296
   },
-  "result": "sakalti2:ires_block",
-  "cooling_time": 228
+  "result": {
+    "item": "sakalti2:ires_block"
+  },
+  "cooling_time": 171
 }

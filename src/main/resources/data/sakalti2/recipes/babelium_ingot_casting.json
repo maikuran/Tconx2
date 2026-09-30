@@ -8,6 +8,8 @@
     "name": "sakalti2:babelium",
     "amount": 144
   },
-  "result": "sakalti2:babelium_ingot",
-  "cooling_time": 85
+  "result": {
+    "item": "sakalti2:babelium_ingot"
+  },
+  "cooling_time": 57
 }

@@ -1,12 +1,9 @@
 {
-  "type": "tconstruct:melting",
-  "ingredient": {
-    "item": "sakalti2:magnum_ingot"
-  },
+  "type": "tconstruct:material_melting",
+  "input": "sakalti2:magnum",
+  "temperature": 1400,
   "result": {
     "fluid": "sakalti2:magnum",
     "amount": 144
-  },
-  "temperature": 1500,
-  "time": 20
+  }
 }

@@ -13,9 +13,8 @@ public class UnstableModifier extends Modifier {
     }
 
     
-    
     public float getEntityDamage(IModifierToolStack tool, int level, ToolAttackContext context,
-                                 float baseDamage, float damage) {
+                                 float damage, float baseDamage) {
         LivingEntity attacker = context.getAttacker();
         if (tool.isBroken() || attacker == null || level <= 0) {
             return baseDamage;
@@ -32,6 +31,6 @@ public class UnstableModifier extends Modifier {
         if (!attacker.level.isClientSide && extraDamage > 0) {
             tool.setDamage(tool.getDamage() + extraDamage);
         }
-        return damage * multiplier;
+        return baseDamage * multiplier;
     }
 }

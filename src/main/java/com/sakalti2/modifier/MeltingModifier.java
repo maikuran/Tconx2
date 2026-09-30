@@ -18,7 +18,6 @@ public class MeltingModifier extends Modifier {
         MinecraftForge.EVENT_BUS.register(this);
     }
     
-    
     public int afterEntityHit(IModifierToolStack tool, int level, ToolAttackContext context, float damage) {
         LivingEntity target = context.getLivingTarget();
         if (target != null && !target.level.isClientSide) target.setSecondsOnFire(4 + level * 2);

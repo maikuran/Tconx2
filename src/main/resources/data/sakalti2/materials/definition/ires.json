@@ -1,10 +1,10 @@
 {
   "craftable": false,
   "tier": 3,
-  "sortOrder": 7,
-  "textColor": "#D94A8C",
+  "sortOrder": 20,
+  "textColor": "#FFFFFF",
   "hidden": false,
   "fluid": "sakalti2:ires",
   "fluidPerUnit": 144,
-  "temperature": 1250
+  "temperature": 1350
 }

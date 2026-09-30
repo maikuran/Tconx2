@@ -53,6 +53,7 @@ public final class Sakalti2Items {
     public static final RegistryObject<Item> KNITZ_INGOT = simple("knitz_ingot");
     public static final RegistryObject<Item> SITUAN_INGOT = simple("situan_ingot");
     public static final RegistryObject<Item> HINEUR_INGOT = simple("hineur_ingot");
+    public static final RegistryObject<Item> BABELIUM_INGOT = simple("babelium_ingot");
     public static final RegistryObject<Item> RAW_IRES = simple("raw_ires");
     public static final RegistryObject<Item> IRES_INGOT = simple("ires_ingot");
     public static final RegistryObject<Item> RAW_SONARIUM = simple("raw_sonarium");
@@ -61,7 +62,6 @@ public final class Sakalti2Items {
     public static final RegistryObject<Item> RINALITE_INGOT = simple("rinalite_ingot");
     public static final RegistryObject<Item> RAW_MAGNUM = simple("raw_magnum");
     public static final RegistryObject<Item> MAGNUM_INGOT = simple("magnum_ingot");
-    public static final RegistryObject<Item> BABELIUM_INGOT = simple("babelium_ingot");
 
     public static final RegistryObject<Item> OSIUM_BUCKET =
             bucket("osium_bucket", Sakalti2Fluids.OSIUM);
@@ -79,11 +79,16 @@ public final class Sakalti2Items {
             bucket("situan_bucket", Sakalti2Fluids.SITUAN);
     public static final RegistryObject<Item> HINEUR_BUCKET =
             bucket("hineur_bucket", Sakalti2Fluids.HINEUR);
-    public static final RegistryObject<Item> IRES_BUCKET = bucket("ires_bucket", Sakalti2Fluids.IRES);
-    public static final RegistryObject<Item> SONARIUM_BUCKET = bucket("sonarium_bucket", Sakalti2Fluids.SONARIUM);
-    public static final RegistryObject<Item> RINALITE_BUCKET = bucket("rinalite_bucket", Sakalti2Fluids.RINALITE);
-    public static final RegistryObject<Item> MAGNUM_BUCKET = bucket("magnum_bucket", Sakalti2Fluids.MAGNUM);
-    public static final RegistryObject<Item> BABELIUM_BUCKET = bucket("babelium_bucket", Sakalti2Fluids.BABELIUM);
+    public static final RegistryObject<Item> IRES_BUCKET =
+            bucket("ires_bucket", Sakalti2Fluids.IRES);
+    public static final RegistryObject<Item> SONARIUM_BUCKET =
+            bucket("sonarium_bucket", Sakalti2Fluids.SONARIUM);
+    public static final RegistryObject<Item> RINALITE_BUCKET =
+            bucket("rinalite_bucket", Sakalti2Fluids.RINALITE);
+    public static final RegistryObject<Item> MAGNUM_BUCKET =
+            bucket("magnum_bucket", Sakalti2Fluids.MAGNUM);
+    public static final RegistryObject<Item> BABELIUM_BUCKET =
+            bucket("babelium_bucket", Sakalti2Fluids.BABELIUM);
 
     private static RegistryObject<Item> simple(String id) {
         return ITEMS.register(id, () -> new Item(

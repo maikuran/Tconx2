@@ -8,6 +8,8 @@
     "name": "sakalti2:magnum",
     "amount": 144
   },
-  "result": "sakalti2:magnum_ingot",
-  "cooling_time": 70
+  "result": {
+    "item": "sakalti2:magnum_ingot"
+  },
+  "cooling_time": 57
 }

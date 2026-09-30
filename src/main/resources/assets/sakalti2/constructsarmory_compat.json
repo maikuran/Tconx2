@@ -10,7 +10,12 @@
     "zarlon",
     "knitz",
     "situan",
-    "hineur"
+    "hineur",
+    "ires",
+    "sonarium",
+    "rinalite",
+    "magnum",
+    "babelium"
   ],
   "source_reference": "Original Sakalti 1.04 Construct's Armory texture set, recolored for Sakalti2.",
   "new_materials": {
@@ -33,6 +38,31 @@
       "tier": 2,
       "harvest_level": 4,
       "color": "25A96C"
+    },
+    "ires": {
+      "tier": 3,
+      "harvest_level": 5,
+      "color": "FFFFFF"
+    },
+    "sonarium": {
+      "tier": 3,
+      "harvest_level": 5,
+      "color": "E34A28"
+    },
+    "rinalite": {
+      "tier": 3,
+      "harvest_level": 5,
+      "color": "F4A9BE"
+    },
+    "magnum": {
+      "tier": 3,
+      "harvest_level": 5,
+      "color": "A52E72"
+    },
+    "babelium": {
+      "tier": 3,
+      "harvest_level": 5,
+      "color": "D8B5FF"
     }
   },
   "casting_support": true,

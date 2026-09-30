@@ -4,6 +4,8 @@
     "name": "sakalti2:magnum",
     "amount": 1296
   },
-  "result": "sakalti2:magnum_block",
-  "cooling_time": 280
+  "result": {
+    "item": "sakalti2:magnum_block"
+  },
+  "cooling_time": 171
 }

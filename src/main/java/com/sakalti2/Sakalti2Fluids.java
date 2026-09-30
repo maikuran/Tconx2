@@ -52,21 +52,26 @@ public final class Sakalti2Fluids {
     public static final RegistryObject<ForgeFlowingFluid> HINEUR = HINEUR_ENTRY.source;
     public static final RegistryObject<ForgeFlowingFluid> FLOWING_HINEUR = HINEUR_ENTRY.flowing;
 
-    public static final FluidEntry IRES_ENTRY = registerFluid("ires", 0xFFD94A8C, 2300, 1200, 1250);
+    public static final FluidEntry IRES_ENTRY = registerFluid("ires", 0xFFFFFFFF, 2300, 1250, 1350);
     public static final RegistryObject<ForgeFlowingFluid> IRES = IRES_ENTRY.source;
     public static final RegistryObject<ForgeFlowingFluid> FLOWING_IRES = IRES_ENTRY.flowing;
-    public static final FluidEntry SONARIUM_ENTRY = registerFluid("sonarium", 0xFFE54832, 2350, 1250, 1350);
+
+    public static final FluidEntry SONARIUM_ENTRY = registerFluid("sonarium", 0xFFE34A28, 2350, 1200, 1250);
     public static final RegistryObject<ForgeFlowingFluid> SONARIUM = SONARIUM_ENTRY.source;
     public static final RegistryObject<ForgeFlowingFluid> FLOWING_SONARIUM = SONARIUM_ENTRY.flowing;
-    public static final FluidEntry RINALITE_ENTRY = registerFluid("rinalite", 0xFFF3B7C9, 2200, 1150, 1200);
+
+    public static final FluidEntry RINALITE_ENTRY = registerFluid("rinalite", 0xFFF4A9BE, 2200, 1180, 1225);
     public static final RegistryObject<ForgeFlowingFluid> RINALITE = RINALITE_ENTRY.source;
     public static final RegistryObject<ForgeFlowingFluid> FLOWING_RINALITE = RINALITE_ENTRY.flowing;
-    public static final FluidEntry MAGNUM_ENTRY = registerFluid("magnum", 0xFF8A2BE2, 2450, 1300, 1500);
+
+    public static final FluidEntry MAGNUM_ENTRY = registerFluid("magnum", 0xFFA52E72, 2450, 1300, 1400);
     public static final RegistryObject<ForgeFlowingFluid> MAGNUM = MAGNUM_ENTRY.source;
     public static final RegistryObject<ForgeFlowingFluid> FLOWING_MAGNUM = MAGNUM_ENTRY.flowing;
-    public static final FluidEntry BABELIUM_ENTRY = registerFluid("babelium", 0xFF5E4AA8, 2550, 1400, 1650);
+
+    public static final FluidEntry BABELIUM_ENTRY = registerFluid("babelium", 0xFFD8B5FF, 2500, 1320, 1450);
     public static final RegistryObject<ForgeFlowingFluid> BABELIUM = BABELIUM_ENTRY.source;
     public static final RegistryObject<ForgeFlowingFluid> FLOWING_BABELIUM = BABELIUM_ENTRY.flowing;
+
 
     private static FluidEntry registerFluid(
             String name,

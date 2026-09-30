@@ -12,7 +12,6 @@ public class UnderpressModifier extends Modifier {
     }
 
     
-    
     public int afterEntityHit(IModifierToolStack tool, int level, ToolAttackContext context, float damage) {
         LivingEntity target = context.getLivingTarget();
         if (target != null && !target.level.isClientSide) {

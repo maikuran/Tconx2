@@ -8,6 +8,8 @@
     "name": "sakalti2:ires",
     "amount": 144
   },
-  "result": "sakalti2:ires_ingot",
+  "result": {
+    "item": "sakalti2:ires_ingot"
+  },
   "cooling_time": 57
 }

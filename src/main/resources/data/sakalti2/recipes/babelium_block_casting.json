@@ -4,6 +4,8 @@
     "name": "sakalti2:babelium",
     "amount": 1296
   },
-  "result": "sakalti2:babelium_block",
-  "cooling_time": 340
+  "result": {
+    "item": "sakalti2:babelium_block"
+  },
+  "cooling_time": 171
 }

@@ -1,12 +1,9 @@
 {
-  "type": "tconstruct:melting",
-  "ingredient": {
-    "item": "sakalti2:rinalite_ingot"
-  },
+  "type": "tconstruct:material_melting",
+  "input": "sakalti2:rinalite",
+  "temperature": 1225,
   "result": {
     "fluid": "sakalti2:rinalite",
     "amount": 144
-  },
-  "temperature": 1200,
-  "time": 20
+  }
 }

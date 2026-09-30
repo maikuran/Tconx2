@@ -9,7 +9,6 @@ import slimeknights.tconstruct.library.tools.nbt.IModifierToolStack;
 public class AuroreumModifier extends Modifier {
     public AuroreumModifier() { super(0xFFD75A); }
     
-    
     public int afterEntityHit(IModifierToolStack tool, int level, ToolAttackContext context, float damage) {
         LivingEntity target = context.getLivingTarget();
         if (target != null && !target.level.isClientSide) {

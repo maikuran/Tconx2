@@ -1,10 +1,10 @@
 {
   "craftable": false,
   "tier": 3,
-  "sortOrder": 7,
-  "textColor": "#5E4AA8",
+  "sortOrder": 24,
+  "textColor": "#D8B5FF",
   "hidden": false,
   "fluid": "sakalti2:babelium",
   "fluidPerUnit": 144,
-  "temperature": 1650
+  "temperature": 1450
 }

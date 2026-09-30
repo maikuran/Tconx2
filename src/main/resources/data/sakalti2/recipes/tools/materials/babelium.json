@@ -1,7 +1,7 @@
 {
   "type": "tconstruct:material",
   "ingredient": {
-    "item": "sakalti2:babelium_ingot"
+    "item": "sakalti2:zarlon_ingot"
   },
   "value": 1,
   "needed": 1,

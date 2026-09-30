@@ -10,7 +10,7 @@
       "durability": 250,
       "attack": 3.0,
       "miningSpeed": 4.0,
-      "harvestLevel": 3
+      "harvestLevel": 2
     },
     "tconstruct:extra": {},
     "constructsarmory:mail": {
@@ -28,7 +28,7 @@
     "tinkersarchery:arrowhead": {
       "count": 1,
       "miningSpeed": 4.0,
-      "harvestLevel": 3,
+      "harvestLevel": 2,
       "attack": 1.2,
       "weight": 1.0,
       "stability": 1.0,
