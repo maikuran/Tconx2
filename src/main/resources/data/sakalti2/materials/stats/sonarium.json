@@ -1,0 +1,29 @@
+{
+  "stats": {
+    "tconstruct:handle": {
+      "durability": 1.18,
+      "attackDamage": 1.05,
+      "attackSpeed": 1.06,
+      "miningSpeed": 1.05
+    },
+    "tconstruct:head": {
+      "durability": 540,
+      "attack": 3.4,
+      "miningSpeed": 7.0,
+      "harvestLevel": 5
+    },
+    "tconstruct:extra": {},
+    "constructsarmory:mail": {
+      "durability": 0.92,
+      "armor": 1.2,
+      "movementSpeed": 1.0
+    },
+    "constructsarmory:plate": {
+      "durability": 540,
+      "armor": 17.0,
+      "toughness": 3.2,
+      "knockbackResistance": 0.18,
+      "movementSpeed": 0.0
+    }
+  }
+}

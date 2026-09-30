@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "sakalti2:magnum",
+    "amount": 144
+  },
+  "temperature": 1500,
+  "output": "sakalti2:magnum"
+}

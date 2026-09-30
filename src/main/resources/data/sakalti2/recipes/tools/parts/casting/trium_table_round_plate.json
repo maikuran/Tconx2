@@ -1,0 +1,8 @@
+{
+  "type": "tconstruct:table_casting_material",
+  "cast": {
+    "item": "tconstruct:round_plate_cast"
+  },
+  "result": "tconstruct:round_plate",
+  "fluid_amount": 432
+}

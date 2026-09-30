@@ -1,0 +1,8 @@
+{
+  "type": "tconstruct:basin_casting_material",
+  "cast": {
+    "item": "tconstruct:tough_handle_cast"
+  },
+  "result": "tconstruct:tough_handle",
+  "fluid_amount": 432
+}

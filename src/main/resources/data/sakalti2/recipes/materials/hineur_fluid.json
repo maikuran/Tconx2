@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "sakalti2:hineur",
+    "amount": 144
+  },
+  "temperature": 950,
+  "output": "sakalti2:hineur"
+}

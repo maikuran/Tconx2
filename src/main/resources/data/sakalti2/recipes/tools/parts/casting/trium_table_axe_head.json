@@ -1,0 +1,8 @@
+{
+  "type": "tconstruct:table_casting_material",
+  "cast": {
+    "item": "tconstruct:axe_head_cast"
+  },
+  "result": "tconstruct:axe_head",
+  "fluid_amount": 288
+}

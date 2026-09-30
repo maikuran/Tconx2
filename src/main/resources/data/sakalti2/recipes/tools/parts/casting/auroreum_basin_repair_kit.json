@@ -1,0 +1,8 @@
+{
+  "type": "tconstruct:basin_casting_material",
+  "cast": {
+    "item": "tconstruct:repair_kit_cast"
+  },
+  "result": "tconstruct:repair_kit",
+  "fluid_amount": 288
+}

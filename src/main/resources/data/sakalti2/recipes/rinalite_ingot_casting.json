@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "tconstruct:ingot_cast"
+  },
+  "cast_consumed": false,
+  "fluid": {
+    "name": "sakalti2:rinalite",
+    "amount": 144
+  },
+  "result": "sakalti2:rinalite_ingot",
+  "cooling_time": 54
+}

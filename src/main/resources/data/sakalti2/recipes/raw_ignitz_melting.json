@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "sakalti2:raw_ignitz"
+  },
+  "result": {
+    "fluid": "sakalti2:ignitz",
+    "amount": 144
+  },
+  "temperature": 1000,
+  "time": 20
+}

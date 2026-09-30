@@ -1,0 +1,38 @@
+{
+  "mantle_fluid_texture_format": "1.16.5",
+  "textures": {
+    "ignitz": {
+      "still": "sakalti2:fluid/ignitz_still",
+      "flowing": "sakalti2:fluid/ignitz_flow"
+    },
+    "auroreum": {
+      "still": "sakalti2:fluid/auroreum_still",
+      "flowing": "sakalti2:fluid/auroreum_flow"
+    },
+    "osium": {
+      "still": "sakalti2:fluid/osium_still",
+      "flowing": "sakalti2:fluid/osium_flow"
+    },
+    "trium": {
+      "still": "sakalti2:fluid/trium_still",
+      "flowing": "sakalti2:fluid/trium_flow"
+    },
+    "zarlon": {
+      "still": "sakalti2:fluid/zarlon_still",
+      "flowing": "sakalti2:fluid/zarlon_flow"
+    },
+    "knitz": {
+      "still": "sakalti2:fluid/knitz_still",
+      "flowing": "sakalti2:fluid/knitz_flow"
+    },
+    "situan": {
+      "still": "sakalti2:fluid/situan_still",
+      "flowing": "sakalti2:fluid/situan_flow"
+    },
+    "hineur": {
+      "still": "sakalti2:fluid/hineur_still",
+      "flowing": "sakalti2:fluid/hineur_flow"
+    }
+  },
+  "source": "Sakalti2 Mantle 1.16.5 fluid texture definitions."
+}

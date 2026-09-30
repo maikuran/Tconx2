@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "sakalti2:situan",
+  "temperature": 1000,
+  "result": {
+    "fluid": "sakalti2:situan",
+    "amount": 144
+  }
+}

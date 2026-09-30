@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "sakalti2:knitz",
+  "temperature": 1150,
+  "result": {
+    "fluid": "sakalti2:knitz",
+    "amount": 144
+  }
+}

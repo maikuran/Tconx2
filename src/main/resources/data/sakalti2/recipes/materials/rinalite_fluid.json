@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "sakalti2:rinalite",
+    "amount": 144
+  },
+  "temperature": 1200,
+  "output": "sakalti2:rinalite"
+}

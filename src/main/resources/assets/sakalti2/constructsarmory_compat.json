@@ -1,0 +1,41 @@
+{
+  "constructs_armory_version": "2.0.0-alpha.2+1.16.5",
+  "armor_render": "MaterialArmorModel dynamic texture",
+  "texture_pattern": "material_armor_{mail|plate}_layer_{1|2}_sakalti2_{material}.png",
+  "materials": [
+    "osium",
+    "ignitz",
+    "auroreum",
+    "trium",
+    "zarlon",
+    "knitz",
+    "situan",
+    "hineur"
+  ],
+  "source_reference": "Original Sakalti 1.04 Construct's Armory texture set, recolored for Sakalti2.",
+  "new_materials": {
+    "zarlon": {
+      "tier": 2,
+      "harvest_level": 4,
+      "color": "9137C0"
+    },
+    "knitz": {
+      "tier": 2,
+      "harvest_level": 4,
+      "color": "7D1638"
+    },
+    "situan": {
+      "tier": 2,
+      "harvest_level": 4,
+      "color": "2E70D0"
+    },
+    "hineur": {
+      "tier": 2,
+      "harvest_level": 4,
+      "color": "25A96C"
+    }
+  },
+  "casting_support": true,
+  "tcon_material_stats": "constructsarmory:mail + constructsarmory:plate",
+  "trait_strategy": "Uses valid Tinkers Construct traits on armor-compatible material stats; armor-specific traits are not invented without a registered ConArm trait."
+}

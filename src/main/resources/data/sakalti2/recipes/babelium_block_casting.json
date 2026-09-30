@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "sakalti2:babelium",
+    "amount": 1296
+  },
+  "result": "sakalti2:babelium_block",
+  "cooling_time": 340
+}

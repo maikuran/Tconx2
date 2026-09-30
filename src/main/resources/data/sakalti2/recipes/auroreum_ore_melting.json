@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "sakalti2:auroreum_ore"
+  },
+  "result": {
+    "fluid": "sakalti2:auroreum",
+    "amount": 144
+  },
+  "temperature": 1100,
+  "time": 20
+}

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "sakalti2:magnum",
+    "amount": 1296
+  },
+  "result": "sakalti2:magnum_block",
+  "cooling_time": 280
+}

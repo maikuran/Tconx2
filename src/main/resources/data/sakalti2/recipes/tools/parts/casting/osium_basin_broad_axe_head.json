@@ -1,0 +1,8 @@
+{
+  "type": "tconstruct:basin_casting_material",
+  "cast": {
+    "item": "tconstruct:broad_axe_head_cast"
+  },
+  "result": "tconstruct:broad_axe_head",
+  "fluid_amount": 1152
+}

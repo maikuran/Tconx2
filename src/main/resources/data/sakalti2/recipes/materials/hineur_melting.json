@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "sakalti2:hineur",
+  "temperature": 950,
+  "result": {
+    "fluid": "sakalti2:hineur",
+    "amount": 144
+  }
+}

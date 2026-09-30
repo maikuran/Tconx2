@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "sakalti2:raw_trium"
+  },
+  "result": {
+    "fluid": "sakalti2:trium",
+    "amount": 144
+  },
+  "temperature": 850,
+  "time": 20
+}

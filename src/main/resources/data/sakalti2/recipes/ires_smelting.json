@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "sakalti2:raw_ires"
+  },
+  "result": "sakalti2:ires_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

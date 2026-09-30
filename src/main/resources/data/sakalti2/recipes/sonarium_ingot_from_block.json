@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sakalti2:sonarium_block"
+    }
+  ],
+  "result": {
+    "item": "sakalti2:sonarium_ingot",
+    "count": 9
+  }
+}

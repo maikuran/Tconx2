@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "name": "sakalti2:babelium",
+    "amount": 144
+  },
+  "temperature": 1650,
+  "output": "sakalti2:babelium"
+}

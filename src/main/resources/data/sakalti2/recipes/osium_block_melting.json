@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "sakalti2:osium_block"
+  },
+  "result": {
+    "fluid": "sakalti2:osium",
+    "amount": 1296
+  },
+  "temperature": 900,
+  "time": 180
+}
