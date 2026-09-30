@@ -26,7 +26,7 @@ public class FiveMaterialModifier extends Modifier {
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    @Override
+    
     public float getEntityDamage(IModifierToolStack tool, int level, ToolAttackContext context,
                                  float damage, float baseDamage) {
         if (level <= 0 || tool.isBroken()) return baseDamage;
@@ -40,7 +40,7 @@ public class FiveMaterialModifier extends Modifier {
         }
     }
 
-    @Override
+    
     public int afterEntityHit(IModifierToolStack tool, int level, ToolAttackContext context, float damage) {
         LivingEntity target = context.getLivingTarget();
         LivingEntity attacker = context.getAttacker();
