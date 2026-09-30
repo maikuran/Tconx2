@@ -20,15 +20,15 @@ public final class Sakalti2Modifiers {
     public static final RegistryObject<Modifier> HINEUR = MODIFIERS.register("layered_renewal", LayeredRenewalTrait::new);
 
     public static final RegistryObject<Modifier> IRES_SPECIAL =
-            MODIFIERS.register("prismatic_rift", () -> new FiveMaterialModifier(FiveMaterialModifier.Mode.IRES));
+            MODIFIERS.register("prismatic_rift", IresModifier::new);
     public static final RegistryObject<Modifier> SONARIUM_SPECIAL =
-            MODIFIERS.register("resonant_torque", () -> new FiveMaterialModifier(FiveMaterialModifier.Mode.SONARIUM));
+            MODIFIERS.register("resonant_torque", SonariumModifier::new);
     public static final RegistryObject<Modifier> RINALITE_SPECIAL =
-            MODIFIERS.register("rose_impact", () -> new FiveMaterialModifier(FiveMaterialModifier.Mode.RINALITE));
+            MODIFIERS.register("rose_impact", RinaliteModifier::new);
     public static final RegistryObject<Modifier> MAGNUM_SPECIAL =
-            MODIFIERS.register("crimson_torque", () -> new FiveMaterialModifier(FiveMaterialModifier.Mode.MAGNUM));
+            MODIFIERS.register("crimson_torque", MagnumModifier::new);
     public static final RegistryObject<Modifier> BABELIUM_SPECIAL =
-            MODIFIERS.register("triune_force", () -> new FiveMaterialModifier(FiveMaterialModifier.Mode.BABELIUM));
+            MODIFIERS.register("triune_force", BabeliumModifier::new);
 
 
     public static void register(IEventBus bus) {
