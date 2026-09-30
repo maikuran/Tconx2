@@ -249,5 +249,20 @@
   "material.sakalti2.babelium.encyclopedia": "A multicolored alloy forged from Situan, Magnum, and Osium.",
   "material.sakalti2.babelium.armor": "A multicolored alloy forged from Situan, Magnum, and Osium.",
   "material.sakalti2.babelium.ranged": "A multicolored alloy forged from Situan, Magnum, and Osium.",
-  "material.sakalti2.babelium": "Babelium"
+  "material.sakalti2.babelium": "Babelium",
+  "modifier.sakalti2.prismatic_rift": "Prismatic Deflection",
+  "modifier.sakalti2.prismatic_rift.description": "The only knockback effect among the five: launches targets on a violent diagonal.",
+  "modifier.sakalti2.prismatic_rift.flavor": "Rainbow force refuses to travel straight.",
+  "modifier.sakalti2.resonant_torque": "Resonant Restraint",
+  "modifier.sakalti2.resonant_torque.description": "Applies Weakness and Slowness to struck targets. It does not cause knockback.",
+  "modifier.sakalti2.resonant_torque.flavor": "The sound steals movement.",
+  "modifier.sakalti2.rose_impact": "Rose Vitality",
+  "modifier.sakalti2.rose_impact.description": "Restores the wielder's health on hit and grants brief regeneration.",
+  "modifier.sakalti2.rose_impact.flavor": "A pale color that gives life back.",
+  "modifier.sakalti2.crimson_torque": "Crimson Reforging",
+  "modifier.sakalti2.crimson_torque.description": "Partially repairs the tool when it hits an enemy. It does not cause knockback.",
+  "modifier.sakalti2.crimson_torque.flavor": "A heavy blow reforges its own edge.",
+  "modifier.sakalti2.triune_force": "Triune Mining",
+  "modifier.sakalti2.triune_force.description": "Breaking a block grants a short burst of strong Haste.",
+  "modifier.sakalti2.triune_force.flavor": "Three metals that never miss a vein."
 }

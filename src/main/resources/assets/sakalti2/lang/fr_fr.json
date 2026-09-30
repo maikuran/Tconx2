@@ -245,5 +245,20 @@
   "material.sakalti2.babelium.encyclopedia": "Un alliage multicolore forgé à partir de Situan, Magnum et Osium.",
   "material.sakalti2.babelium.armor": "Un alliage multicolore forgé à partir de Situan, Magnum et Osium.",
   "material.sakalti2.babelium.ranged": "Un alliage multicolore forgé à partir de Situan, Magnum et Osium.",
-  "material.sakalti2.babelium": "Babelium"
+  "material.sakalti2.babelium": "Babelium",
+  "modifier.sakalti2.prismatic_rift": "Déviation prismatique",
+  "modifier.sakalti2.prismatic_rift.description": "Le seul effet de recul des cinq matériaux : projette brutalement la cible en diagonale.",
+  "modifier.sakalti2.prismatic_rift.flavor": "La force arc-en-ciel refuse la ligne droite.",
+  "modifier.sakalti2.resonant_torque": "Entrave résonante",
+  "modifier.sakalti2.resonant_torque.description": "Inflige Faiblesse et Lenteur à la cible touchée. Aucun recul.",
+  "modifier.sakalti2.resonant_torque.flavor": "Le son vole le mouvement.",
+  "modifier.sakalti2.rose_impact": "Vitalité rosée",
+  "modifier.sakalti2.rose_impact.description": "Restaure la santé du porteur à l impact et accorde une brève régénération.",
+  "modifier.sakalti2.rose_impact.flavor": "Une couleur douce qui rend la vie.",
+  "modifier.sakalti2.crimson_torque": "Reforge cramoisi",
+  "modifier.sakalti2.crimson_torque.description": "Répare partiellement la durabilité de l outil à chaque coup. Aucun recul.",
+  "modifier.sakalti2.crimson_torque.flavor": "Un coup lourd refor­ge son propre tranchant.",
+  "modifier.sakalti2.triune_force": "Extraction triple",
+  "modifier.sakalti2.triune_force.description": "Casser un bloc accorde brièvement une forte Célérité.",
+  "modifier.sakalti2.triune_force.flavor": "Trois métaux qui ne manquent jamais un filon."
 }

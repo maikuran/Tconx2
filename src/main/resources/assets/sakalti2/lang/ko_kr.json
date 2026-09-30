@@ -249,5 +249,20 @@
   "material.sakalti2.babelium.encyclopedia": "시투안, 마그넘, 오시움을 단조해 만든 다색 합금입니다.",
   "material.sakalti2.babelium.armor": "시투안, 마그넘, 오시움을 단조해 만든 다색 합금입니다.",
   "material.sakalti2.babelium.ranged": "시투안, 마그넘, 오시움을 단조해 만든 다색 합금입니다.",
-  "material.sakalti2.babelium": "Babelium"
+  "material.sakalti2.babelium": "Babelium",
+  "modifier.sakalti2.prismatic_rift": "프리즘 편향",
+  "modifier.sakalti2.prismatic_rift.description": "다섯 재료 중 유일한 넉백 효과로 대상을 강하게 대각선으로 날립니다.",
+  "modifier.sakalti2.prismatic_rift.flavor": "무지개빛 힘은 직선으로 나아가지 않습니다.",
+  "modifier.sakalti2.resonant_torque": "공명 구속",
+  "modifier.sakalti2.resonant_torque.description": "피격 대상에게 약화와 느려짐을 부여합니다. 넉백은 없습니다.",
+  "modifier.sakalti2.resonant_torque.flavor": "소리가 움직임을 빼앗습니다.",
+  "modifier.sakalti2.rose_impact": "장미 생명력",
+  "modifier.sakalti2.rose_impact.description": "공격이 적중하면 사용자의 체력을 회복하고 짧은 재생 효과를 얻습니다.",
+  "modifier.sakalti2.rose_impact.flavor": "부드러운 색이 생명을 돌려줍니다.",
+  "modifier.sakalti2.crimson_torque": "진홍 재련",
+  "modifier.sakalti2.crimson_torque.description": "적을 공격하면 도구의 내구도를 조금 회복합니다. 넉백은 없습니다.",
+  "modifier.sakalti2.crimson_torque.flavor": "무거운 일격이 자신의 날을 다시 벼립니다.",
+  "modifier.sakalti2.triune_force": "삼중 채굴",
+  "modifier.sakalti2.triune_force.description": "블록을 부수면 짧은 시간 강한 성급함 효과를 얻습니다.",
+  "modifier.sakalti2.triune_force.flavor": "세 금속은 광맥을 놓치지 않습니다."
 }

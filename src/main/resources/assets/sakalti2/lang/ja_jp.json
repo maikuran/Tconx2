@@ -249,5 +249,20 @@
   "material.sakalti2.babelium.encyclopedia": "シトゥアン、マグナム、オシウムから鍛造された多色合金。",
   "material.sakalti2.babelium.armor": "シトゥアン、マグナム、オシウムから鍛造された多色合金。",
   "material.sakalti2.babelium.ranged": "シトゥアン、マグナム、オシウムから鍛造された多色合金。",
-  "material.sakalti2.babelium": "Babelium"
+  "material.sakalti2.babelium": "Babelium",
+  "modifier.sakalti2.prismatic_rift": "プリズム偏軌",
+  "modifier.sakalti2.prismatic_rift.description": "5素材で唯一、対象を大きく斜めへ弾き飛ばす。ほかの4素材にはノックバック効果がない。",
+  "modifier.sakalti2.prismatic_rift.flavor": "虹の力はまっすぐ進まない。",
+  "modifier.sakalti2.resonant_torque": "共鳴拘束",
+  "modifier.sakalti2.resonant_torque.description": "攻撃した対象に弱体化と移動速度低下を与える。ノックバックは発生しない。",
+  "modifier.sakalti2.resonant_torque.flavor": "音は相手の動きを奪う。",
+  "modifier.sakalti2.rose_impact": "薔薇生命",
+  "modifier.sakalti2.rose_impact.description": "攻撃が命中すると使用者の体力を回復し、短時間の再生効果を得る。",
+  "modifier.sakalti2.rose_impact.flavor": "淡い色は生命を返す。",
+  "modifier.sakalti2.crimson_torque": "紅蓮再鍛",
+  "modifier.sakalti2.crimson_torque.description": "攻撃が命中すると道具の耐久値を少量回復する。ノックバックは発生しない。",
+  "modifier.sakalti2.crimson_torque.flavor": "重い一撃が自らの刃を鍛え直す。",
+  "modifier.sakalti2.triune_force": "三元採掘",
+  "modifier.sakalti2.triune_force.description": "ブロックを破壊すると短時間、強力な採掘速度上昇を得る。攻撃時の特殊効果はない。",
+  "modifier.sakalti2.triune_force.flavor": "三つの金属は鉱脈を見逃さない。"
 }

@@ -245,5 +245,20 @@
   "material.sakalti2.babelium.encyclopedia": "Многоцветный сплав, выкованный из Ситуана, Магнума и Осиума.",
   "material.sakalti2.babelium.armor": "Многоцветный сплав, выкованный из Ситуана, Магнума и Осиума.",
   "material.sakalti2.babelium.ranged": "Многоцветный сплав, выкованный из Ситуана, Магнума и Осиума.",
-  "material.sakalti2.babelium": "Babelium"
+  "material.sakalti2.babelium": "Babelium",
+  "modifier.sakalti2.prismatic_rift": "Призматическое отклонение",
+  "modifier.sakalti2.prismatic_rift.description": "Единственный эффект отбрасывания среди пяти: резко отправляет цель по диагонали.",
+  "modifier.sakalti2.prismatic_rift.flavor": "Радужная сила не желает идти прямо.",
+  "modifier.sakalti2.resonant_torque": "Резонансные оковы",
+  "modifier.sakalti2.resonant_torque.description": "Накладывает Слабость и Замедление на поражённую цель. Отбрасывания нет.",
+  "modifier.sakalti2.resonant_torque.flavor": "Звук отнимает движение.",
+  "modifier.sakalti2.rose_impact": "Розовая жизненная сила",
+  "modifier.sakalti2.rose_impact.description": "Восстанавливает здоровье владельца при ударе и даёт краткую регенерацию.",
+  "modifier.sakalti2.rose_impact.flavor": "Нежный цвет возвращает жизнь.",
+  "modifier.sakalti2.crimson_torque": "Багровая перековка",
+  "modifier.sakalti2.crimson_torque.description": "Частично восстанавливает прочность инструмента при ударе. Отбрасывания нет.",
+  "modifier.sakalti2.crimson_torque.flavor": "Тяжёлый удар перековывает собственное лезвие.",
+  "modifier.sakalti2.triune_force": "Тройная добыча",
+  "modifier.sakalti2.triune_force.description": "Разрушение блока даёт краткий мощный эффект Ускорения.",
+  "modifier.sakalti2.triune_force.flavor": "Три металла не пропускают ни одной жилы."
 }

@@ -249,5 +249,20 @@
   "material.sakalti2.babelium.encyclopedia": "由西图安、马格南与欧修姆锻造而成的多色合金。",
   "material.sakalti2.babelium.armor": "由西图安、马格南与欧修姆锻造而成的多色合金。",
   "material.sakalti2.babelium.ranged": "由西图安、马格南与欧修姆锻造而成的多色合金。",
-  "material.sakalti2.babelium": "Babelium"
+  "material.sakalti2.babelium": "Babelium",
+  "modifier.sakalti2.prismatic_rift": "棱彩偏斜",
+  "modifier.sakalti2.prismatic_rift.description": "五种材料中唯一的击退效果：将目标猛烈地斜向击飞。",
+  "modifier.sakalti2.prismatic_rift.flavor": "彩虹之力拒绝直线前进。",
+  "modifier.sakalti2.resonant_torque": "共鸣束缚",
+  "modifier.sakalti2.resonant_torque.description": "使被击中的目标获得虚弱和缓慢效果，不会产生击退。",
+  "modifier.sakalti2.resonant_torque.flavor": "声音夺走行动。",
+  "modifier.sakalti2.rose_impact": "蔷薇生命",
+  "modifier.sakalti2.rose_impact.description": "命中时恢复使用者生命，并获得短暂的生命恢复。",
+  "modifier.sakalti2.rose_impact.flavor": "淡雅的颜色也能归还生命。",
+  "modifier.sakalti2.crimson_torque": "绯红再锻",
+  "modifier.sakalti2.crimson_torque.description": "命中敌人时少量修复工具耐久，不会产生击退。",
+  "modifier.sakalti2.crimson_torque.flavor": "沉重的一击重新锻造自己的刃。",
+  "modifier.sakalti2.triune_force": "三元采掘",
+  "modifier.sakalti2.triune_force.description": "破坏方块后获得短时间的强力急迫效果。",
+  "modifier.sakalti2.triune_force.flavor": "三种金属从不放过矿脉。"
 }

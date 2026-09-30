@@ -245,5 +245,20 @@
   "material.sakalti2.babelium.encyclopedia": "Eine mehrfarbige Legierung aus Situan, Magnum und Osium.",
   "material.sakalti2.babelium.armor": "Eine mehrfarbige Legierung aus Situan, Magnum und Osium.",
   "material.sakalti2.babelium.ranged": "Eine mehrfarbige Legierung aus Situan, Magnum und Osium.",
-  "material.sakalti2.babelium": "Babelium"
+  "material.sakalti2.babelium": "Babelium",
+  "modifier.sakalti2.prismatic_rift": "Prismatische Abweichung",
+  "modifier.sakalti2.prismatic_rift.description": "Der einzige Rückstoßeffekt der fünf Materialien: Ziele werden brutal diagonal weggeschleudert.",
+  "modifier.sakalti2.prismatic_rift.flavor": "Regenbogenkraft geht selten geradeaus.",
+  "modifier.sakalti2.resonant_torque": "Resonante Fessel",
+  "modifier.sakalti2.resonant_torque.description": "Verleiht getroffenen Zielen Schwäche und Langsamkeit. Kein Rückstoß.",
+  "modifier.sakalti2.resonant_torque.flavor": "Der Klang raubt die Bewegung.",
+  "modifier.sakalti2.rose_impact": "Rosenvitalität",
+  "modifier.sakalti2.rose_impact.description": "Heilt den Träger bei einem Treffer und verleiht kurz Regeneration.",
+  "modifier.sakalti2.rose_impact.flavor": "Eine sanfte Farbe, die Leben zurückgibt.",
+  "modifier.sakalti2.crimson_torque": "Karmesinrote Neuschmiedung",
+  "modifier.sakalti2.crimson_torque.description": "Repariert bei einem Treffer einen Teil der Werkzeughaltbarkeit. Kein Rückstoß.",
+  "modifier.sakalti2.crimson_torque.flavor": "Ein schwerer Schlag schmiedet die Klinge neu.",
+  "modifier.sakalti2.triune_force": "Dreifacher Abbau",
+  "modifier.sakalti2.triune_force.description": "Das Abbauen eines Blocks verleiht kurzzeitig starke Eile.",
+  "modifier.sakalti2.triune_force.flavor": "Drei Metalle übersehen keine Ader."
 }

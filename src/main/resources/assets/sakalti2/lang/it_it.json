@@ -245,5 +245,20 @@
   "material.sakalti2.babelium.encyclopedia": "Una lega multicolore forgiata da Situan, Magnum e Osium.",
   "material.sakalti2.babelium.armor": "Una lega multicolore forgiata da Situan, Magnum e Osium.",
   "material.sakalti2.babelium.ranged": "Una lega multicolore forgiata da Situan, Magnum e Osium.",
-  "material.sakalti2.babelium": "Babelium"
+  "material.sakalti2.babelium": "Babelium",
+  "modifier.sakalti2.prismatic_rift": "Deviazione Prismatica",
+  "modifier.sakalti2.prismatic_rift.description": "L unico effetto di contraccolpo dei cinque: scaglia il bersaglio violentemente in diagonale.",
+  "modifier.sakalti2.prismatic_rift.flavor": "La forza arcobaleno rifiuta la linea retta.",
+  "modifier.sakalti2.resonant_torque": "Vincolo Risonante",
+  "modifier.sakalti2.resonant_torque.description": "Applica Debolezza e Lentezza al bersaglio colpito. Nessun contraccolpo.",
+  "modifier.sakalti2.resonant_torque.flavor": "Il suono ruba il movimento.",
+  "modifier.sakalti2.rose_impact": "Vitalità Rosata",
+  "modifier.sakalti2.rose_impact.description": "Cura il portatore a ogni colpo e concede una breve rigenerazione.",
+  "modifier.sakalti2.rose_impact.flavor": "Un colore tenue che restituisce vita.",
+  "modifier.sakalti2.crimson_torque": "Riforgiatura Cremisi",
+  "modifier.sakalti2.crimson_torque.description": "Ripara parzialmente la durabilità dell attrezzo quando colpisce. Nessun contraccolpo.",
+  "modifier.sakalti2.crimson_torque.flavor": "Un colpo pesante riforgia il proprio filo.",
+  "modifier.sakalti2.triune_force": "Estrazione Tripla",
+  "modifier.sakalti2.triune_force.description": "Rompere un blocco concede per breve tempo una forte rapidità di scavo.",
+  "modifier.sakalti2.triune_force.flavor": "Tre metalli che non perdono mai una vena."
 }

@@ -245,5 +245,20 @@
   "material.sakalti2.babelium.encyclopedia": "Una aleación multicolor forjada con Situan, Magnum y Osium.",
   "material.sakalti2.babelium.armor": "Una aleación multicolor forjada con Situan, Magnum y Osium.",
   "material.sakalti2.babelium.ranged": "Una aleación multicolor forjada con Situan, Magnum y Osium.",
-  "material.sakalti2.babelium": "Babelium"
+  "material.sakalti2.babelium": "Babelium",
+  "modifier.sakalti2.prismatic_rift": "Desvío Prismático",
+  "modifier.sakalti2.prismatic_rift.description": "El único efecto de retroceso de los cinco: lanza al objetivo violentamente en diagonal.",
+  "modifier.sakalti2.prismatic_rift.flavor": "La fuerza arcoíris se niega a avanzar en línea recta.",
+  "modifier.sakalti2.resonant_torque": "Sujeción Resonante",
+  "modifier.sakalti2.resonant_torque.description": "Aplica Debilidad y Lentitud al objetivo golpeado. No causa retroceso.",
+  "modifier.sakalti2.resonant_torque.flavor": "El sonido roba el movimiento.",
+  "modifier.sakalti2.rose_impact": "Vitalidad Rosada",
+  "modifier.sakalti2.rose_impact.description": "Restaura salud al portador al golpear y concede regeneración breve.",
+  "modifier.sakalti2.rose_impact.flavor": "Un color suave que devuelve la vida.",
+  "modifier.sakalti2.crimson_torque": "Reforja Carmesí",
+  "modifier.sakalti2.crimson_torque.description": "Repara parcialmente la durabilidad de la herramienta al golpear. No causa retroceso.",
+  "modifier.sakalti2.crimson_torque.flavor": "Un golpe pesado vuelve a forjar el filo.",
+  "modifier.sakalti2.triune_force": "Minería Triple",
+  "modifier.sakalti2.triune_force.description": "Romper un bloque concede una ráfaga breve de Prisa intensa.",
+  "modifier.sakalti2.triune_force.flavor": "Tres metales que nunca pierden una veta."
 }
