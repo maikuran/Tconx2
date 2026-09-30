@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:casting_basin",
-  "fluid": {
-    "name": "sakalti2:rinalite",
-    "amount": 1296
-  },
-  "result": "sakalti2:rinalite_block",
-  "cooling_time": 216
-}

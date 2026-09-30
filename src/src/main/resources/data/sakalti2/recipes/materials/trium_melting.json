@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "sakalti2:trium",
-  "temperature": 850,
-  "result": {
-    "fluid": "sakalti2:trium",
-    "amount": 144
-  }
-}

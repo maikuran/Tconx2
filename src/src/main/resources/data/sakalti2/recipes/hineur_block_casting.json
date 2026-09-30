@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:casting_basin",
-  "fluid": {
-    "name": "sakalti2:hineur",
-    "amount": 1296
-  },
-  "result": "sakalti2:hineur_block",
-  "cooling_time": 225
-}

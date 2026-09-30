@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "sakalti2:zarlon",
-  "temperature": 1050,
-  "result": {
-    "fluid": "sakalti2:zarlon",
-    "amount": 144
-  }
-}

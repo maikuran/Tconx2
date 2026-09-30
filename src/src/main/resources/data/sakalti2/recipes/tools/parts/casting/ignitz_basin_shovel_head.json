@@ -1,8 +1,0 @@
-{
-  "type": "tconstruct:basin_casting_material",
-  "cast": {
-    "item": "tconstruct:shovel_head_cast"
-  },
-  "result": "tconstruct:shovel_head",
-  "fluid_amount": 288
-}

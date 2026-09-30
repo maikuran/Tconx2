@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "sakalti2:osium",
-  "temperature": 900,
-  "result": {
-    "fluid": "sakalti2:osium",
-    "amount": 144
-  }
-}

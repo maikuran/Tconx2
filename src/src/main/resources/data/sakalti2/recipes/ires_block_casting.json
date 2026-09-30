@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:casting_basin",
-  "fluid": {
-    "name": "sakalti2:ires",
-    "amount": 1296
-  },
-  "result": "sakalti2:ires_block",
-  "cooling_time": 228
-}

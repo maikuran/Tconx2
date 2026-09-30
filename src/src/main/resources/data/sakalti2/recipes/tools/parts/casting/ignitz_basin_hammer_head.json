@@ -1,8 +1,0 @@
-{
-  "type": "tconstruct:basin_casting_material",
-  "cast": {
-    "item": "tconstruct:hammer_head_cast"
-  },
-  "result": "tconstruct:hammer_head",
-  "fluid_amount": 1152
-}

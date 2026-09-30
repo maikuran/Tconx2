@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_fluid",
-  "fluid": {
-    "name": "sakalti2:auroreum",
-    "amount": 144
-  },
-  "temperature": 1100,
-  "output": "sakalti2:auroreum"
-}

@@ -1,8 +1,0 @@
-{
-  "type": "tconstruct:basin_casting_material",
-  "cast": {
-    "item": "tconstruct:tool_binding_cast"
-  },
-  "result": "tconstruct:tool_binding",
-  "fluid_amount": 144
-}

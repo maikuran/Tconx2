@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "sakalti2:raw_osium"
-  },
-  "result": "sakalti2:osium_ingot",
-  "experience": 1.0,
-  "cookingtime": 200
-}

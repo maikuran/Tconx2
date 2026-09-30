@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "sakalti2:block/rinalite_ore"
-  }
-}

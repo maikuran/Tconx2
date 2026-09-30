@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "sakalti2:raw_rinalite"
-  },
-  "result": "sakalti2:rinalite_ingot",
-  "experience": 1.0,
-  "cookingtime": 200
-}

@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_fluid",
-  "fluid": {
-    "name": "sakalti2:knitz",
-    "amount": 144
-  },
-  "temperature": 1150,
-  "output": "sakalti2:knitz"
-}

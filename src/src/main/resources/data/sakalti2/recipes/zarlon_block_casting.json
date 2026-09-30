@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:casting_basin",
-  "fluid": {
-    "name": "sakalti2:zarlon",
-    "amount": 1296
-  },
-  "result": "sakalti2:zarlon_block",
-  "cooling_time": 225
-}

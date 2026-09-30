@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:casting_basin",
-  "fluid": {
-    "name": "sakalti2:sonarium",
-    "amount": 1296
-  },
-  "result": "sakalti2:sonarium_block",
-  "cooling_time": 240
-}

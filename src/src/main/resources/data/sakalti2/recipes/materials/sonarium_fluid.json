@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_fluid",
-  "fluid": {
-    "name": "sakalti2:sonarium",
-    "amount": 144
-  },
-  "temperature": 1350,
-  "output": "sakalti2:sonarium"
-}

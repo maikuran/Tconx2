@@ -1,6 +1,0 @@
-{
-  "parent": "block/water",
-  "textures": {
-    "particle": "sakalti2:fluid/zarlon_still"
-  }
-}
