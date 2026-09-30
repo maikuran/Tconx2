@@ -1,0 +1,10 @@
+{
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 7,
+  "textColor": "#8A2BE2",
+  "hidden": false,
+  "fluid": "sakalti2:magnum",
+  "fluidPerUnit": 144,
+  "temperature": 1500
+}

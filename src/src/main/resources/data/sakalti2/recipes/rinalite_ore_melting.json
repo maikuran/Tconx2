@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "sakalti2:rinalite_ore"
+  },
+  "result": {
+    "fluid": "sakalti2:rinalite",
+    "amount": 144
+  },
+  "temperature": 1200,
+  "time": 20
+}

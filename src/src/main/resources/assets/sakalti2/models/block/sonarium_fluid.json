@@ -1,0 +1,6 @@
+{
+  "parent": "block/water",
+  "textures": {
+    "particle": "sakalti2:fluid/sonarium_still"
+  }
+}

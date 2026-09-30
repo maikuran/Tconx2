@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "tconstruct:ingot_cast"
+  },
+  "cast_consumed": false,
+  "fluid": {
+    "name": "sakalti2:babelium",
+    "amount": 144
+  },
+  "result": "sakalti2:babelium_ingot",
+  "cooling_time": 85
+}

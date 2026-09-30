@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "sakalti2:situan",
+      "amount": 48
+    },
+    {
+      "name": "sakalti2:magnum",
+      "amount": 48
+    },
+    {
+      "name": "sakalti2:osium",
+      "amount": 48
+    }
+  ],
+  "result": {
+    "fluid": "sakalti2:babelium",
+    "amount": 144
+  },
+  "temperature": 1650
+}

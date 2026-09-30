@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "sakalti2:raw_magnum"
+  },
+  "result": "sakalti2:magnum_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

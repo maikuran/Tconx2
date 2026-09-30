@@ -1,0 +1,14 @@
+Sakalti2 source tree
+Target: Minecraft 1.16.5 / Forge 36.x / Tinkers Construct 3.3.4 / Mantle 1.6.157.
+Java package: com.sakalti2
+Mod ID: sakalti2
+
+Important fixes:
+- Forge 1.16.5 fluid API uses ForgeFlowingFluid, not FlowingFluid.Properties.
+- 1.16.5 ItemGroup uses TAB_MATERIALS, not TAB_INGREDIENTS.
+- Underpress uses Entity.setPos and a 1.16.5-safe Y clamp.
+- Removed the accidental self-dependency on sakalti2.
+- Osium uses a local port of the original Sakalti 1.04 UnstableModifier behavior.
+- Added Tinkers Construct material registration recipes.
+- Added Construct's Armory and Tinkers' Archery material stat entries based on the original Sakalti stat schema.
+- Added processed Construct's Armory armor textures derived from the original Sakalti 1.04 armor textures.
