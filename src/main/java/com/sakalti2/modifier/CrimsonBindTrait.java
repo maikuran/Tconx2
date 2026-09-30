@@ -16,7 +16,7 @@ public class CrimsonBindTrait extends Modifier {
     }
 
     
-    @Override
+    
     public int afterEntityHit(IModifierToolStack tool, int level, ToolAttackContext context, float damage) {
         LivingEntity target = context.getLivingTarget();
         LivingEntity attacker = context.getAttacker();
