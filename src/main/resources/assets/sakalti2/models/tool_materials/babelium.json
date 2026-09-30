@@ -43,7 +43,8 @@
     },
     "supportedStats": [
       "tconstruct:handle",
-      "tconstruct:head"
+      "tconstruct:head",
+      "tconstruct:extra"
     ],
     "ignoreMaterialStats": false
   }
