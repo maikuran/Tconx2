@@ -19,11 +19,11 @@
       "movementSpeed": 1.01
     },
     "constructsarmory:plate": {
-      "durability": 850,
-      "armor": 20.0,
-      "toughness": 4.0,
+      "durability": 430,
+      "armor": 17.0,
+      "toughness": 1.9,
       "knockbackResistance": 0.25,
-      "movementSpeed": 0.005
+      "movementSpeed": 0.025
     },
     "tinkersarchery:arrowhead": {
       "count": 1,
