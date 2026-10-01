@@ -23,7 +23,7 @@
       "armor": 20.0,
       "toughness": 5.0,
       "knockbackResistance": 0.55,
-      "movementSpeed": -0.05
+      "movementSpeed": 0.95
     },
     "tinkersarchery:arrowhead": {
       "count": 1,
