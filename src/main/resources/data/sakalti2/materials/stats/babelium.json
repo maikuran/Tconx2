@@ -36,7 +36,7 @@
     },
     "tinkersarchery:bowguide": {},
     "tinkersarchery:bow": {
-      "durability": 850,
+      "durability": 760,
       "elasticity": 1.35,
       "drawSpeed": 1.05
     },
