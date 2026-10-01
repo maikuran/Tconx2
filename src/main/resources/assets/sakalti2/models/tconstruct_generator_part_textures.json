@@ -384,6 +384,26 @@
     {
       "path": "tconstruct:cleaver/large/handle",
       "statType": "tconstruct:handle"
+    },
+    {
+      "path": "constructsarmory:parts/body_plate",
+      "statType": "constructsarmory:plate"
+    },
+    {
+      "path": "constructsarmory:parts/head_plate",
+      "statType": "constructsarmory:plate"
+    },
+    {
+      "path": "constructsarmory:parts/legs_plate",
+      "statType": "constructsarmory:plate"
+    },
+    {
+      "path": "constructsarmory:parts/feet_plate",
+      "statType": "constructsarmory:plate"
+    },
+    {
+      "path": "tconstruct:parts/repair_kit",
+      "statType": "tconstruct:repair_kit"
     }
   ]
 }
