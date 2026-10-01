@@ -16,14 +16,14 @@
     "constructsarmory:mail": {
       "durability": 1.05,
       "armor": 1.35,
-      "movementSpeed": 1.01
+      "movementSpeed": 1.0
     },
     "constructsarmory:plate": {
-      "durability": 850,
+      "durability": 420,
       "armor": 20.0,
-      "toughness": 4.0,
-      "knockbackResistance": 0.25,
-      "movementSpeed": 0.005
+      "toughness": 5.0,
+      "knockbackResistance": 0.55,
+      "movementSpeed": -0.05
     },
     "tinkersarchery:arrowhead": {
       "count": 1,
