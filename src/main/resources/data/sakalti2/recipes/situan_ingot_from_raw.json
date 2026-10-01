@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "sakalti2:raw_situan"
+  },
+  "result": "sakalti2:situan_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

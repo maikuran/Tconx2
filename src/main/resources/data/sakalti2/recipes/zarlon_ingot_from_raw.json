@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "sakalti2:raw_zarlon"
+  },
+  "result": "sakalti2:zarlon_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

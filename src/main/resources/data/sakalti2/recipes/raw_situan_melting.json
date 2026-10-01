@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "sakalti2:raw_situan"
+  },
+  "result": {
+    "fluid": "sakalti2:situan",
+    "amount": 144
+  },
+  "temperature": 1000,
+  "time": 20
+}

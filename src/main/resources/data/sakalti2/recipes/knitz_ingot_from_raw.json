@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "sakalti2:raw_knitz"
+  },
+  "result": "sakalti2:knitz_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

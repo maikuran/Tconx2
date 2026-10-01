@@ -1,6 +1,5 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "sakalti2:item/ignitz_bucket"
-  }
+  "parent": "forge:item/bucket_drip",
+  "loader": "forge:bucket",
+  "fluid": "sakalti2:ignitz"
 }
