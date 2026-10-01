@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "sakalti2:zarlon_ingot"
+    }
+  },
+  "result": {
+    "item": "sakalti2:zarlon_block",
+    "count": 1
+  }
+}

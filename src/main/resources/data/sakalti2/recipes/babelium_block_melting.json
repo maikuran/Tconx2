@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "sakalti2:babelium_block"
+  },
+  "result": {
+    "fluid": "sakalti2:babelium",
+    "amount": 1296
+  },
+  "temperature": 1450,
+  "time": 180
+}

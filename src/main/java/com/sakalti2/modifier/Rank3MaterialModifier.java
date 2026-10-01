@@ -24,7 +24,7 @@ public abstract class Rank3MaterialModifier extends Modifier {
                 && !attacker(context).level.isClientSide;
     }
 
-    
+    @Override
     public float getEntityDamage(IModifierToolStack tool, int level, ToolAttackContext context,
                                  float damage, float baseDamage) {
         return damage;

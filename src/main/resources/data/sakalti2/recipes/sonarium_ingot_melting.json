@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "sakalti2:sonarium_ingot"
+  },
+  "result": {
+    "fluid": "sakalti2:sonarium",
+    "amount": 144
+  },
+  "temperature": 1250,
+  "time": 20
+}

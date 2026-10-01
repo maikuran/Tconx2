@@ -7,12 +7,12 @@ import slimeknights.tconstruct.library.tools.nbt.IModifierToolStack;
 
 /** Sonarium: status-control genre; it never changes entity velocity. */
 public class SonariumModifier extends Rank3MaterialModifier {
-    
+    @Override
     public float getEntityDamage(IModifierToolStack tool, int level, ToolAttackContext context, float damage, float baseDamage) {
         return damage + (0.70F * level);
     }
 
-    
+    @Override
     public int afterEntityHit(IModifierToolStack tool, int level, ToolAttackContext context, float damage) {
         if (!valid(tool, level, context)) return 0;
         int duration = 55 + level * 12;

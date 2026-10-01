@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "sakalti2:hineur_ingot"
+  },
+  "result": {
+    "fluid": "sakalti2:hineur",
+    "amount": 144
+  },
+  "temperature": 950,
+  "time": 20
+}

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "sakalti2:zarlon_block"
+  },
+  "result": {
+    "fluid": "sakalti2:zarlon",
+    "amount": 1296
+  },
+  "temperature": 1050,
+  "time": 180
+}

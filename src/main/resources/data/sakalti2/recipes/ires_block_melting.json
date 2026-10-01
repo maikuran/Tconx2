@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "sakalti2:ires_block"
+  },
+  "result": {
+    "fluid": "sakalti2:ires",
+    "amount": 1296
+  },
+  "temperature": 1350,
+  "time": 180
+}

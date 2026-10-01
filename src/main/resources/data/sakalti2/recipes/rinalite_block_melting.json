@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "sakalti2:rinalite_block"
+  },
+  "result": {
+    "fluid": "sakalti2:rinalite",
+    "amount": 1296
+  },
+  "temperature": 1225,
+  "time": 180
+}

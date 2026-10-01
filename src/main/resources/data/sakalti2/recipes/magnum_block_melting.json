@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "sakalti2:magnum_block"
+  },
+  "result": {
+    "fluid": "sakalti2:magnum",
+    "amount": 1296
+  },
+  "temperature": 1400,
+  "time": 180
+}
