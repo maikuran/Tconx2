@@ -29,14 +29,14 @@
       "count": 1,
       "miningSpeed": 8.5,
       "harvestLevel": 5,
-      "attack": 2.08,
+      "attack": 3.45,
       "weight": 1.35,
       "stability": 1.3,
       "accuracy": 1.1
     },
     "tinkersarchery:bowguide": {},
     "tinkersarchery:bow": {
-      "durability": 850,
+      "durability": 700,
       "elasticity": 1.35,
       "drawSpeed": 1.05
     },
