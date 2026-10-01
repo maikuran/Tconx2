@@ -16,7 +16,7 @@ public class BabeliumModifier extends Rank3MaterialModifier {
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    
+    @Override
     public float getEntityDamage(IModifierToolStack tool, int level, ToolAttackContext context, float damage, float baseDamage) {
         return damage + (1.00F * level);
     }
