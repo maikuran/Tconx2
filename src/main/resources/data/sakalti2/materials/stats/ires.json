@@ -29,7 +29,7 @@
       "count": 1,
       "miningSpeed": 8.5,
       "harvestLevel": 5,
-      "attack": 2.5,
+      "attack": 2.75,
       "weight": 1.25,
       "stability": 1.2,
       "accuracy": 1.1
@@ -44,7 +44,7 @@
       "count": 1.0,
       "miningSpeed": 1.1,
       "attackSpeed": 1.05,
-      "attackDamage": 1.2,
+      "attackDamage": 1.525,
       "weight": 1.05,
       "stability": 1.9,
       "accuracy": 1.4
