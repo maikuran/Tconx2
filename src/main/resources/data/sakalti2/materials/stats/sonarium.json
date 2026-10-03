@@ -15,7 +15,7 @@
     "tconstruct:extra": {},
     "constructsarmory:mail": {
       "durability": 1.25,
-      "armor": 1.35,
+      "armor": 1.15,
       "movementSpeed": 1.01
     },
     "constructsarmory:plate": {
@@ -30,22 +30,22 @@
       "miningSpeed": 8.5,
       "harvestLevel": 5,
       "attack": 2.73,
-      "weight": 1.35,
-      "stability": 1.3,
+      "weight": 1.55,
+      "stability": 1.6,
       "accuracy": 1.1
     },
     "tinkersarchery:bowguide": {},
     "tinkersarchery:bow": {
       "durability": 920,
-      "elasticity": 1.35,
+      "elasticity": 1.25,
       "drawSpeed": 0.85
     },
     "tinkersarchery:arrow_shaft": {
       "count": 1.0,
       "miningSpeed": 1.1,
-      "attackSpeed": 1.05,
-      "attackDamage": 1.1,
-      "weight": 1.35,
+      "attackSpeed": 1.15,
+      "attackDamage": 1.65,
+      "weight": 1.25,
       "stability": 1.3,
       "accuracy": 1.1
     }
