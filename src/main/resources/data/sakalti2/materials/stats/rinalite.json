@@ -38,7 +38,7 @@
     "tinkersarchery:bow": {
       "durability": 1250,
       "elasticity": 1.05,
-      "drawSpeed": 0.55
+      "drawSpeed": 1.55
     },
     "tinkersarchery:arrow_shaft": {
       "count": 1.0,
